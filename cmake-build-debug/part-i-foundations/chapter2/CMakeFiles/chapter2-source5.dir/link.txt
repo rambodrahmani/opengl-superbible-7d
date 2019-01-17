@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/chapter2-source5.dir/source5.cpp.o  -o chapter2-source5 ../../liblibrary.a ../../library/glfw/src/libglfw3.a /usr/lib/librt.so -lm /usr/lib/libX11.so -lpthread -ldl /usr/lib/libGLU.so /usr/lib/libGLX.so /usr/lib/libOpenGL.so 

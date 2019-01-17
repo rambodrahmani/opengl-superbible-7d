@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="part_i_foundations"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\library\;CMake Files\library\glfw\;CMake Files\library\glfw\CMake\;CMake Files\library\glfw\CMake\modules\;CMake Files\library\glfw\src\;CMake Files\library\gl3w\;CMake Files\library\gl3w\cmake\;CMake Files\part-i-foundations\;CMake Files\part-i-foundations\chapter1\;CMake Files\part-i-foundations\chapter2\;CMake Files\part-i-foundations\chapter3\;CMake Files\part-ii-in-depth\;CMake Files\part-iii-in-practice\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter1">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter1/chapter1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter1/Makefile&quot;  VERBOSE=1 chapter1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter1/fast">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter1/chapter1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter1/Makefile&quot;  VERBOSE=1 chapter1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter2-source2">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/chapter2-source2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include"/>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 chapter2-source2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter2-source2/fast">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/chapter2-source2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include"/>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 chapter2-source2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter2-source1">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/chapter2-source1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include"/>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 chapter2-source1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter2-source1/fast">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/chapter2-source1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include"/>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 chapter2-source1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter2-source6">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/chapter2-source6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include"/>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 chapter2-source6"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter2-source6/fast">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/chapter2-source6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include"/>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 chapter2-source6/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter2-source7">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/chapter2-source7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include"/>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 chapter2-source7"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter2-source7/fast">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/chapter2-source7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include"/>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 chapter2-source7/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter2-source3">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/chapter2-source3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include"/>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 chapter2-source3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter2-source3/fast">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/chapter2-source3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include"/>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 chapter2-source3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter2-source4">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/chapter2-source4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include"/>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 chapter2-source4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter2-source4/fast">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/chapter2-source4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include"/>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 chapter2-source4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter2-source5">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/chapter2-source5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include"/>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 chapter2-source5"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter2-source5/fast">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/chapter2-source5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include"/>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 chapter2-source5/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter3-source2">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/chapter3-source2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include"/>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 chapter3-source2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter3-source2/fast">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/chapter3-source2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include"/>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 chapter3-source2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter3-source1">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/chapter3-source1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include"/>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 chapter3-source1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter3-source1/fast">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/chapter3-source1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include"/>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 chapter3-source1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter3-source3">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/chapter3-source3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include"/>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 chapter3-source3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter3-source3/fast">
+				<Option output="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/chapter3-source3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include"/>
+					<Add directory="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 chapter3-source3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/chapter1/source1.cpp">
+			<Option target="chapter1"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/chapter2/source1.cpp">
+			<Option target="chapter2-source1"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/chapter2/source2.cpp">
+			<Option target="chapter2-source2"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/chapter2/source3.cpp">
+			<Option target="chapter2-source3"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/chapter2/source4.cpp">
+			<Option target="chapter2-source4"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/chapter2/source5.cpp">
+			<Option target="chapter2-source5"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/chapter2/source6.cpp">
+			<Option target="chapter2-source6"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/chapter2/source7.cpp">
+			<Option target="chapter2-source7"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/chapter3/source1.cpp">
+			<Option target="chapter3-source1"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/chapter3/source2.cpp">
+			<Option target="chapter3-source2"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/chapter3/source3.cpp">
+			<Option target="chapter3-source3"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\library\"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\library\glfw\"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\library\glfw\"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\library\glfw\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\library\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\library\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\library\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\library\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/gl3w/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\library\gl3w\"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/gl3w/cmake/gl3w-config.cmake">
+			<Option virtualFolder="CMake Files\library\gl3w\cmake\"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\part-i-foundations\"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/chapter1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\part-i-foundations\chapter1\"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/chapter2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\part-i-foundations\chapter2\"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/chapter3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\part-i-foundations\chapter3\"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-ii-in-depth/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\part-ii-in-depth\"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-iii-in-practice/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\part-iii-in-practice\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

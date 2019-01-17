@@ -1,0 +1,56 @@
+/opt/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Could NOT find Vulkan (missing: VULKAN_INCLUDE_DIR) 
+-- Using X11 for window creation
+-- Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found X11: /usr/lib/libX11.so
+-- Found PythonInterp: /usr/bin/python (found version "3.7.1") 
+-- Configuring done
+CMake Error at library/CMakeLists.txt:19 (add_executable):
+  Cannot find source file:
+
+    /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/src/gl3w.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at part-i-foundations/chapter2/CMakeLists.txt:31 (add_executable):
+  Cannot find source file:
+
+    /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/src/gl3w.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at part-i-foundations/chapter3/CMakeLists.txt:31 (add_executable):
+  Cannot find source file:
+
+    /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/src/gl3w.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+-- Generating done
+-- Build files have been written to: /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug

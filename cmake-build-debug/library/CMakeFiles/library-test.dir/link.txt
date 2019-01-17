@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/library-test.dir/main.cpp.o CMakeFiles/library-test.dir/src/Util.cpp.o CMakeFiles/library-test.dir/src/Application.cpp.o CMakeFiles/library-test.dir/src/GLFWApplication.cpp.o  -o library-test glfw/src/libglfw3.a /usr/lib/librt.so -lm /usr/lib/libX11.so -lpthread -ldl /usr/lib/libGLU.so /usr/lib/libGLX.so /usr/lib/libOpenGL.so 
