@@ -1,10 +1,21 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "C"
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w/src/gl3w.c" "/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter2/CMakeFiles/chapter2-source1.dir/__/__/library/gl3w/src/gl3w.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../library/glfw/include"
+  "library/gl3w/include"
+  )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/chapter2/source1.cpp" "/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/CMakeFiles/chapter2-source1.dir/source1.cpp.o"
+  "/home/rambodrahmani/DevOps/opengl-superbible-7ed/part-i-foundations/chapter2/source1.cpp" "/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter2/CMakeFiles/chapter2-source1.dir/source1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,8 +27,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/CMakeFiles/library.dir/DependInfo.cmake"
-  "/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/CMakeFiles/library.dir/DependInfo.cmake"
+  "/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

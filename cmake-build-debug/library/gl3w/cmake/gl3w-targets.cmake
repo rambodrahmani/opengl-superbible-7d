@@ -49,9 +49,9 @@ unset(_expectedTargets)
 add_library(gl3w INTERFACE IMPORTED)
 
 set_target_properties(gl3w PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w/include"
   INTERFACE_LINK_LIBRARIES "OpenGL::GL;OpenGL::GLU;dl"
-  INTERFACE_SOURCES "/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/src/gl3w.c"
+  INTERFACE_SOURCES "/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w/src/gl3w.c"
 )
 
 # This file does not depend on other imported targets which have

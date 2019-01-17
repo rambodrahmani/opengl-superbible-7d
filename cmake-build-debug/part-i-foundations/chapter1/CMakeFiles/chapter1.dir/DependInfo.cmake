@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/chapter1/source1.cpp" "/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter1/CMakeFiles/chapter1.dir/source1.cpp.o"
+  "/home/rambodrahmani/DevOps/opengl-superbible-7ed/part-i-foundations/chapter1/source1.cpp" "/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter1/CMakeFiles/chapter1.dir/source1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

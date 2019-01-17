@@ -48,10 +48,10 @@ RM = /opt/clion/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED
+CMAKE_SOURCE_DIR = /home/rambodrahmani/DevOps/opengl-superbible-7ed
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug
+CMAKE_BINARY_DIR = /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/CMakeFiles /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter1/CMakeFiles/progress.marks
-	cd /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/CMakeFiles 0
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/CMakeFiles /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter1/CMakeFiles/progress.marks
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter1/clean
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter1/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter1/preinstall
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter1/preinstall
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 part-i-foundations/chapter1/CMakeFiles/chapter1.dir/rule:
-	cd /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter1/CMakeFiles/chapter1.dir/rule
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter1/CMakeFiles/chapter1.dir/rule
 .PHONY : part-i-foundations/chapter1/CMakeFiles/chapter1.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ chapter1: part-i-foundations/chapter1/CMakeFiles/chapter1.dir/rule
 
 # fast build rule for target.
 chapter1/fast:
-	cd /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build
 .PHONY : chapter1/fast
 
 source1.o: source1.cpp.o
@@ -177,7 +177,7 @@ source1.o: source1.cpp.o
 
 # target to build an object file
 source1.cpp.o:
-	cd /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1.dir/source1.cpp.o
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1.dir/source1.cpp.o
 .PHONY : source1.cpp.o
 
 source1.i: source1.cpp.i
@@ -186,7 +186,7 @@ source1.i: source1.cpp.i
 
 # target to preprocess a source file
 source1.cpp.i:
-	cd /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1.dir/source1.cpp.i
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1.dir/source1.cpp.i
 .PHONY : source1.cpp.i
 
 source1.s: source1.cpp.s
@@ -195,7 +195,7 @@ source1.s: source1.cpp.s
 
 # target to generate assembly for a file
 source1.cpp.s:
-	cd /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1.dir/source1.cpp.s
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1.dir/source1.cpp.s
 .PHONY : source1.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

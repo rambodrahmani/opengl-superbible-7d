@@ -43,10 +43,10 @@ RM = /opt/clion/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED
+CMAKE_SOURCE_DIR = /home/rambodrahmani/DevOps/opengl-superbible-7ed
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug
+CMAKE_BINARY_DIR = /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug
 
 # Utility rule file for gl3w_gen.
 
@@ -60,8 +60,8 @@ library/gl3w/CMakeFiles/gl3w_gen: library/gl3w/include/KHR/khrplatform.h
 
 
 library/gl3w/src/gl3w.c: ../library/gl3w/gl3w_gen.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating src/gl3w.c, include/GL/gl3w.h, include/GL/glcorearb.h, include/KHR/khrplatform.h"
-	cd /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w && /usr/bin/python /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/gl3w/gl3w_gen.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating src/gl3w.c, include/GL/gl3w.h, include/GL/glcorearb.h, include/KHR/khrplatform.h"
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w && /usr/bin/python /home/rambodrahmani/DevOps/opengl-superbible-7ed/library/gl3w/gl3w_gen.py
 
 library/gl3w/include/GL/gl3w.h: library/gl3w/src/gl3w.c
 	@$(CMAKE_COMMAND) -E touch_nocreate library/gl3w/include/GL/gl3w.h
@@ -87,10 +87,10 @@ library/gl3w/CMakeFiles/gl3w_gen.dir/build: gl3w_gen
 .PHONY : library/gl3w/CMakeFiles/gl3w_gen.dir/build
 
 library/gl3w/CMakeFiles/gl3w_gen.dir/clean:
-	cd /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w && $(CMAKE_COMMAND) -P CMakeFiles/gl3w_gen.dir/cmake_clean.cmake
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w && $(CMAKE_COMMAND) -P CMakeFiles/gl3w_gen.dir/cmake_clean.cmake
 .PHONY : library/gl3w/CMakeFiles/gl3w_gen.dir/clean
 
 library/gl3w/CMakeFiles/gl3w_gen.dir/depend:
-	cd /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/gl3w /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/CMakeFiles/gl3w_gen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rambodrahmani/DevOps/opengl-superbible-7ed /home/rambodrahmani/DevOps/opengl-superbible-7ed/library/gl3w /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w/CMakeFiles/gl3w_gen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : library/gl3w/CMakeFiles/gl3w_gen.dir/depend
 

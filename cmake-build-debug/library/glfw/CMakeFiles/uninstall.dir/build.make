@@ -43,10 +43,10 @@ RM = /opt/clion/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED
+CMAKE_SOURCE_DIR = /home/rambodrahmani/DevOps/opengl-superbible-7ed
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug
+CMAKE_BINARY_DIR = /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-
 include library/glfw/CMakeFiles/uninstall.dir/progress.make
 
 library/glfw/CMakeFiles/uninstall:
-	cd /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/glfw && /opt/clion/bin/cmake/linux/bin/cmake -P /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/glfw/cmake_uninstall.cmake
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/glfw && /opt/clion/bin/cmake/linux/bin/cmake -P /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/glfw/cmake_uninstall.cmake
 
 uninstall: library/glfw/CMakeFiles/uninstall
 uninstall: library/glfw/CMakeFiles/uninstall.dir/build.make
@@ -67,10 +67,10 @@ library/glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : library/glfw/CMakeFiles/uninstall.dir/build
 
 library/glfw/CMakeFiles/uninstall.dir/clean:
-	cd /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : library/glfw/CMakeFiles/uninstall.dir/clean
 
 library/glfw/CMakeFiles/uninstall.dir/depend:
-	cd /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/glfw /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rambodrahmani/DevOps/opengl-superbible-7ed /home/rambodrahmani/DevOps/opengl-superbible-7ed/library/glfw /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/glfw /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : library/glfw/CMakeFiles/uninstall.dir/depend
 

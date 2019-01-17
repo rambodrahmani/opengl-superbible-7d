@@ -5,68 +5,74 @@
 		<Option title="part_ii_in_depth"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\library\;CMake Files\library\glfw\;CMake Files\library\glfw\CMake\;CMake Files\library\glfw\CMake\modules\;CMake Files\library\glfw\src\;CMake Files\library\gl3w\;CMake Files\library\gl3w\cmake\;CMake Files\part-i-foundations\;CMake Files\part-i-foundations\chapter1\;CMake Files\part-i-foundations\chapter2\;CMake Files\part-i-foundations\chapter3\;CMake Files\part-ii-in-depth\;CMake Files\part-iii-in-practice\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\library\;CMake Files\library\glfw\;CMake Files\library\glfw\CMake\;CMake Files\library\glfw\CMake\modules\;CMake Files\library\glfw\src\;CMake Files\library\glfw\examples\;CMake Files\library\glfw\tests\;CMake Files\library\gl3w\;CMake Files\library\gl3w\cmake\;CMake Files\part-i-foundations\;CMake Files\part-i-foundations\chapter1\;CMake Files\part-i-foundations\chapter2\;CMake Files\part-i-foundations\chapter3\;CMake Files\part-ii-in-depth\;CMake Files\part-iii-in-practice\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-ii-in-depth"/>
+				<Option working_dir="/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-ii-in-depth"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-ii-in-depth/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-ii-in-depth/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-ii-in-depth/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-ii-in-depth/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-ii-in-depth/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-ii-in-depth/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-ii-in-depth/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-ii-in-depth/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/CMakeLists.txt">
+		<Unit filename="/home/rambodrahmani/DevOps/opengl-superbible-7ed/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/CMakeLists.txt">
+		<Unit filename="/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\library\"/>
 		</Unit>
-		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/CMakeLists.txt">
+		<Unit filename="/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/glfw/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\library\glfw\"/>
 		</Unit>
-		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/cmake_uninstall.cmake.in">
+		<Unit filename="/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/glfw/cmake_uninstall.cmake.in">
 			<Option virtualFolder="CMake Files\library\glfw\"/>
 		</Unit>
-		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/CMake/modules/FindVulkan.cmake">
+		<Unit filename="/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/glfw/CMake/modules/FindVulkan.cmake">
 			<Option virtualFolder="CMake Files\library\glfw\CMake\modules\"/>
 		</Unit>
-		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/src/CMakeLists.txt">
+		<Unit filename="/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/glfw/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\library\glfw\src\"/>
 		</Unit>
-		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/src/glfw3.pc.in">
+		<Unit filename="/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/glfw/src/glfw3.pc.in">
 			<Option virtualFolder="CMake Files\library\glfw\src\"/>
 		</Unit>
-		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/src/glfw3Config.cmake.in">
+		<Unit filename="/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/glfw/src/glfw3Config.cmake.in">
 			<Option virtualFolder="CMake Files\library\glfw\src\"/>
 		</Unit>
-		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/src/glfw_config.h.in">
+		<Unit filename="/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/glfw/src/glfw_config.h.in">
 			<Option virtualFolder="CMake Files\library\glfw\src\"/>
 		</Unit>
-		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/gl3w/CMakeLists.txt">
+		<Unit filename="/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/glfw/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\library\glfw\examples\"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/glfw/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\library\glfw\tests\"/>
+		</Unit>
+		<Unit filename="/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/gl3w/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\library\gl3w\"/>
 		</Unit>
-		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/gl3w/cmake/gl3w-config.cmake">
+		<Unit filename="/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/gl3w/cmake/gl3w-config.cmake">
 			<Option virtualFolder="CMake Files\library\gl3w\cmake\"/>
 		</Unit>
-		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/CMakeLists.txt">
+		<Unit filename="/home/rambodrahmani/DevOps/opengl-superbible-7ed/part-i-foundations/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\part-i-foundations\"/>
 		</Unit>
-		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/chapter1/CMakeLists.txt">
+		<Unit filename="/home/rambodrahmani/DevOps/opengl-superbible-7ed/part-i-foundations/chapter1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\part-i-foundations\chapter1\"/>
 		</Unit>
-		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/chapter2/CMakeLists.txt">
+		<Unit filename="/home/rambodrahmani/DevOps/opengl-superbible-7ed/part-i-foundations/chapter2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\part-i-foundations\chapter2\"/>
 		</Unit>
-		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations/chapter3/CMakeLists.txt">
+		<Unit filename="/home/rambodrahmani/DevOps/opengl-superbible-7ed/part-i-foundations/chapter3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\part-i-foundations\chapter3\"/>
 		</Unit>
-		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-ii-in-depth/CMakeLists.txt">
+		<Unit filename="/home/rambodrahmani/DevOps/opengl-superbible-7ed/part-ii-in-depth/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\part-ii-in-depth\"/>
 		</Unit>
-		<Unit filename="/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-iii-in-practice/CMakeLists.txt">
+		<Unit filename="/home/rambodrahmani/DevOps/opengl-superbible-7ed/part-iii-in-practice/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\part-iii-in-practice\"/>
 		</Unit>
 	</Project>

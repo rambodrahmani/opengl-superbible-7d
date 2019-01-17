@@ -1,4 +1,4 @@
-# Install script for directory: /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-iii-in-practice
+# Install script for directory: /home/rambodrahmani/DevOps/opengl-superbible-7ed/part-iii-in-practice
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

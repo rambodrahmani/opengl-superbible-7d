@@ -1,4 +1,4 @@
-# Install script for directory: /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/part-i-foundations
+# Install script for directory: /home/rambodrahmani/DevOps/opengl-superbible-7ed/part-i-foundations
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter1/cmake_install.cmake")
-  include("/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter2/cmake_install.cmake")
-  include("/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/chapter3/cmake_install.cmake")
+  include("/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter1/cmake_install.cmake")
+  include("/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter2/cmake_install.cmake")
+  include("/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter3/cmake_install.cmake")
 
 endif()
 

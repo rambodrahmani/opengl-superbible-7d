@@ -1,4 +1,4 @@
-# Install script for directory: /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library
+# Install script for directory: /home/rambodrahmani/DevOps/opengl-superbible-7ed/library
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

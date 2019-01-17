@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/gl3w/include/GL/gl3w.h
+/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/gl3w/include/GL/gl3w.h
 GL/glcorearb.h
 -
 
-/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include/GLFW/glfw3.h
+/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/glfw/include/GLFW/glfw3.h
 stddef.h
 -
 stdint.h
@@ -54,11 +54,11 @@ GL/glu.h
 vulkan/vulkan.h
 -
 
-/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/include/Application.h
+/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/include/Application.h
 
-/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/include/GLFWApplication.h
+/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/include/GLFWApplication.h
 Application.h
-/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/include/Application.h
+/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/include/Application.h
 Windows.h
 -
 unistd.h
@@ -70,11 +70,11 @@ string.h
 math.h
 -
 ../gl3w/include/GL/gl3w.h
-/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/gl3w/include/GL/gl3w.h
+/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/gl3w/include/GL/gl3w.h
 ../glfw/include/GLFW/glfw3.h
-/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include/GLFW/glfw3.h
+/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/glfw/include/GLFW/glfw3.h
 
-/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/include/Util.h
+/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/include/Util.h
 iostream
 -
 fstream
@@ -82,19 +82,19 @@ fstream
 vector
 -
 ../gl3w/include/GL/gl3w.h
-/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/gl3w/include/GL/gl3w.h
+/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/gl3w/include/GL/gl3w.h
 ../glfw/include/GLFW/glfw3.h
-/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include/GLFW/glfw3.h
+/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/glfw/include/GLFW/glfw3.h
 
-/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/src/Application.cpp
+/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/src/Application.cpp
 ../include/Application.h
-/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/include/Application.h
+/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/include/Application.h
 
-/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/src/GLFWApplication.cpp
+/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/src/GLFWApplication.cpp
 ../include/GLFWApplication.h
-/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/include/GLFWApplication.h
+/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/include/GLFWApplication.h
 
-/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/src/Util.cpp
+/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/src/Util.cpp
 ../include/Util.h
-/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/include/Util.h
+/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/include/Util.h
 

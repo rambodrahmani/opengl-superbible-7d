@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/glfw/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/glfw/install_manifest.txt\"")
+if (NOT EXISTS "/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/glfw/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/glfw/install_manifest.txt" files)
+file(READ "/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

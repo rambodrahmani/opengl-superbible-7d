@@ -6,7 +6,7 @@ C_FLAGS = -g -fPIC   -Wall
 
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/include -I/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/glfw/src -I/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/glfw/src 
+C_INCLUDES = -I/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/glfw/include -I/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/glfw/src -I/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/glfw/src 
 
 # Custom flags: library/glfw/src/CMakeFiles/glfw.dir/context.c.o_FLAGS = -Wdeclaration-after-statement
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/gl3w
+# Install script for directory: /home/rambodrahmani/DevOps/opengl-superbible-7ed/library/gl3w
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,30 +38,30 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gl3w" TYPE FILE FILES "/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/src/gl3w.c")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gl3w" TYPE FILE FILES "/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w/src/gl3w.c")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gl3w/GL" TYPE FILE FILES "/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include/GL/gl3w.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gl3w/GL" TYPE FILE FILES "/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w/include/GL/gl3w.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gl3w/GL" TYPE FILE FILES "/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include/GL/glcorearb.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gl3w/GL" TYPE FILE FILES "/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w/include/GL/glcorearb.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gl3w/KHR" TYPE FILE FILES "/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/include/KHR/khrplatform.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gl3w/KHR" TYPE FILE FILES "/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w/include/KHR/khrplatform.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gl3w" TYPE FILE FILES "/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/library/gl3w/cmake/gl3w-config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gl3w" TYPE FILE FILES "/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/gl3w/cmake/gl3w-config.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/gl3w/gl3w-targets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/gl3w/gl3w-targets.cmake"
-         "/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/CMakeFiles/Export/share/gl3w/gl3w-targets.cmake")
+         "/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w/CMakeFiles/Export/share/gl3w/gl3w-targets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/gl3w/gl3w-targets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -70,6 +70,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gl3w" TYPE FILE FILES "/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/CMakeFiles/Export/share/gl3w/gl3w-targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gl3w" TYPE FILE FILES "/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w/CMakeFiles/Export/share/gl3w/gl3w-targets.cmake")
 endif()
 

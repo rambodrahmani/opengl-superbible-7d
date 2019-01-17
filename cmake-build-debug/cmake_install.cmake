@@ -1,4 +1,4 @@
-# Install script for directory: /home/rambodrahmani/DevOps/OpenGL-Superbible-7ED
+# Install script for directory: /home/rambodrahmani/DevOps/opengl-superbible-7ed
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/cmake_install.cmake")
-  include("/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/glfw/cmake_install.cmake")
-  include("/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/library/gl3w/cmake_install.cmake")
-  include("/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-i-foundations/cmake_install.cmake")
-  include("/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-ii-in-depth/cmake_install.cmake")
-  include("/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/part-iii-in-practice/cmake_install.cmake")
+  include("/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/cmake_install.cmake")
+  include("/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/glfw/cmake_install.cmake")
+  include("/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w/cmake_install.cmake")
+  include("/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/cmake_install.cmake")
+  include("/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-ii-in-depth/cmake_install.cmake")
+  include("/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-iii-in-practice/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rambodrahmani/DevOps/OpenGL-Superbible-7ED/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

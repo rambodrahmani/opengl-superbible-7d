@@ -35,7 +35,7 @@ add_subdirectory(library)
 ##
 # Add library for library subdirectory.
 ##
-add_library(library library/include/GLFWApplication.h library/src/GLFWApplication.cpp library/include/Application.h library/src/Application.cpp library/include/Util.h library/src/Util.cpp library/include/KHR/provva.h)
+add_library(library library/include/GLFWApplication.h library/src/GLFWApplication.cpp library/include/Application.h library/src/Application.cpp library/include/Util.h library/src/Util.cpp)
 
 ##
 # Add library/glfw subdirectory.
