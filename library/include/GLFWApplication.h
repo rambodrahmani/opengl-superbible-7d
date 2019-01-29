@@ -2,7 +2,7 @@
  *
  *   File:   GLFWApplication.h
  *
- *           Extends the Application base class in order to implement a GLFW backed
+ *           Extends the base Application class in order to implement a GLFW backed
  *           application. By default, it initializes the GLFW and the GL3W libraries,
  *           it provides a GLFWwindow where rendering operation can be performed
  *           using the render method.
@@ -44,15 +44,16 @@ class GLFWApplication : public Application
 {
     private:
         /**
-         *
+         * Extends the base class APPINFO struct to add information related to
+         * GLFW backed applications.
          */
-        struct APPINFO
+        struct GLF_APPINFO : Application::APPINFO
         {
             char title[128];
             int windowWidth;
             int windowHeight;
-            int majorVersion;
-            int minorVersion;
+            int openglMajorVersion;
+            int openglMinorVersion;
             int samples;
 
             union
@@ -72,7 +73,7 @@ class GLFWApplication : public Application
 
         static          GLFWApplication * application;
         GLFWwindow *    window;
-        APPINFO         info;
+        GLF_APPINFO     info;
 
         /**
          *
@@ -93,7 +94,12 @@ class GLFWApplication : public Application
                                             GLvoid * userParam);
 
         /**
-         *
+         * Sets application default infos. Initializes the GLFW library. Sets the
+         * specified window hints to the desired values and creates the GLFWwindow.
+         * If the GLFWwindow is correctly created, makes the OpenGL context of the window
+         * current on the calling thread and sets the GLFWwindow callbacks.
+         * Next initializes GL3W and checks if the required OpenGL version is supported.
+         * Finally the custom onInit() method is called.
          */
         bool init() override;
 
@@ -109,12 +115,12 @@ class GLFWApplication : public Application
 
     protected:
         /**
-         * No GLFW nor GL3W support at this point. Use onStartup() for that.
+         * Must return true for the application to finish initialization correctly.
          */
         virtual bool onInit() = 0;
 
         /**
-         *
+         * Must return true for the application to finish startup correctly.
          */
         virtual bool onStartup() = 0;
 
@@ -143,6 +149,9 @@ class GLFWApplication : public Application
          * The callback is provided with the size, in screen coordinates, of the client
          * area of the window.
          *
+         * Calls GLFWApplication::onWindowResized() passing the new width and the new height,
+         * in screen coordinates, of the window.
+         *
          * @param   window  the window that was resized.
          * @param   w       the new width, in screen coordinates, of the window.
          * @param   h       the new height, in screen coordinates, of the window.
@@ -151,8 +160,8 @@ class GLFWApplication : public Application
 
         /**
          *
-         * @param w
-         * @param h
+         * @param   w   the new width, in screen coordinates, of the window.
+         * @param   h   the new height, in screen coordinates, of the window.
          */
         virtual void onWindowResized(int w, int h);
 
@@ -320,6 +329,13 @@ class GLFWApplication : public Application
         /**
          * Never call this method directly. Instead use the MAIN macro for your
          * application entry point.
+         *
+         * Checks if the application is already running. Sets the internal application
+         * static reference and the running status. Calls the application-specific init
+         * method. If init() is successful, calls the application-specific startup method.
+         * If startup() is successful the main loop starts recursively calling the
+         * application-specific render method. The loop will continue until the running
+         * status remains set. Finally the application-specific shutdown method is called.
          *
          * @param   app the instance of the application to be executed.
          */

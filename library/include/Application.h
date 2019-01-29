@@ -1,6 +1,9 @@
 /**
  *
- *   File:   Application.h
+ *   File:  Application.h
+ *
+ *          This class defines a standard Application workflow to be used by
+ *          different types of application.
  *
  *   Author: Rambod Rahmani <rambodrahmani@autistici.org>
  *           Created on 9/2/18.
@@ -28,6 +31,19 @@ class Application
         bool running = false;
 
     protected:
+        /**
+         * This struct contains information related to the application.
+         */
+        struct APPINFO
+        {
+            char name[128];
+            int majorVersion;
+            int minorVersion;
+            int birth_year;
+            int birth_month;
+            int birth_day;
+        };
+
         /**
          *
          */
@@ -70,7 +86,7 @@ class Application
          * Needs to be defined public in order to allow for the MAIN macro to
          * call it from outside context.
          *
-         * @param   app
+         * @param   app the instance of the application to be executed.
          */
         virtual void run(Application * app) = 0;
 };

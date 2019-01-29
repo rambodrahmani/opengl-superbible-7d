@@ -183,10 +183,10 @@ class source3 : public GLFWApplication
         }
 
         /**
-         * Clears the GL_COLOR buffer to the specified color.
+         * Clears the GL_COLOR buffer to the color defined by color[].
          *
          * @param   currentTime the time, in seconds,  elapsed since GLFW was
-         *                      initialized
+         *                      initialized.
          */
         void render(double currentTime) override
         {

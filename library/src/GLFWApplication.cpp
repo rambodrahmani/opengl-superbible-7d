@@ -14,32 +14,16 @@
  */
 GLFWApplication * GLFWApplication::application = nullptr;
 
-/**
- * Default constructor.
- */
 GLFWApplication::GLFWApplication()
 {
     // nothing to do
 }
 
-/**
- * Default destructor.
- */
 GLFWApplication::~GLFWApplication()
 {
     // nothing to do
 }
 
-/**
- * Checks if the application is already running. Sets the internal application
- * static reference and the running status. Calls the application-specific init
- * method. If init() is successful, calls the application-specific startup method.
- * If startup() is successful the main loop starts recursively calling the
- * application-specific render method. The loop will continue until the running
- * status remains set. Finally the application-specific shutdown method is called.
- *
- * @param   app the instance of the application to be executed.
- */
 void GLFWApplication::run(Application * app)
 {
     // check if the application is already running
@@ -104,17 +88,17 @@ void GLFWApplication::run(Application * app)
     }
 }
 
-/**
- * Sets application default infos. Initializes the GLFW library. Sets the
- * specified window hints to the desired values and creates the GLFWwindow.
- * If the GLFWwindow is correctly created, makes the OpenGL context of the window
- * current on the calling thread and sets the GLFWwindow callbacks.
- * Next initializes GL3W and
- */
 bool GLFWApplication::init()
 {
+    // set the application name
+    strcpy(info.name, "GLFWApplication");
+
+    // set the application version
+    info.majorVersion = 1;
+    info.minorVersion = 0;
+
     // set GLFWwindow title
-    strcpy(info.title, "GLFWApplication");
+    strcpy(info.title, "GLFWApplication Main Window");
 
     // set GLFWwindow size
     info.windowWidth = 800;
@@ -122,11 +106,11 @@ bool GLFWApplication::init()
 
     // set OpenGL Context version based on platform
     #ifdef __APPLE__
-        info.majorVersion = 3;
-        info.minorVersion = 2;
+        info.openglMajorVersion = 3;
+        info.openglMinorVersion = 2;
     #else
-        info.majorVersion = 4;
-        info.minorVersion = 3;
+        info.openglMajorVersion = 4;
+        info.openglMinorVersion = 3;
     #endif
 
     info.samples = 0;
@@ -146,8 +130,8 @@ bool GLFWApplication::init()
     }
 
     // set OpenGL Context window hints
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, info.majorVersion);
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, info.minorVersion);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, info.openglMajorVersion);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, info.openglMinorVersion);
 
     // if application debug flag is set
     if (info.flags.debug)
@@ -212,14 +196,14 @@ bool GLFWApplication::init()
     // initialize the GL3W library
     if (gl3wInit())
     {
-        fprintf(stderr, "failed to initialize OpenGL\n");
+        fprintf(stderr, "Failed to initialize Gl3w.\n");
         return false;
     }
 
     // check the required OpenGL core profile version is supported
-    if (!gl3wIsSupported(info.majorVersion, info.minorVersion))
+    if (!gl3wIsSupported(info.openglMajorVersion, info.openglMinorVersion))
     {
-        fprintf(stderr, "OpenGL %i.%i not supported.\n", info.majorVersion, info.minorVersion);
+        fprintf(stderr, "OpenGL %i.%i not supported.\n", info.openglMajorVersion, info.openglMinorVersion);
         return false;
     }
 
@@ -239,45 +223,27 @@ bool GLFWApplication::init()
         }
     }
 
+    // finally, return onInit() result
     return onInit();
 }
 
-/**
- *
- */
 bool GLFWApplication::startup()
 {
-    // finally, call onStartup()
+    // finally, return onStartup() result
     return onStartup();
 }
 
-/**
- *
- */
 void GLFWApplication::shutdown()
 {
-    // finally, call onShutdown
+    // finally, call onShutdown()
     onShutdown();
 }
 
-/**
- * Calls GLFWApplication::onWindowResized() passing the new width and the new height,
- * in screen coordinates, of the window.
- *
- * @param   window  the window that was resized.
- * @param   w       the new width, in screen coordinates, of the window.
- * @param   h       the new height, in screen coordinates, of the window.
- */
 void GLFWApplication::glfw_onWindowResized(GLFWwindow * window, int w, int h)
 {
     application->onWindowResized(w, h);
 }
 
-/**
- *
- * @param   w   the new width, in screen coordinates, of the window.
- * @param   h   the new height, in screen coordinates, of the window.
- */
 void GLFWApplication::onWindowResized(int w, int h)
 {
     info.windowWidth = w;
@@ -285,7 +251,7 @@ void GLFWApplication::onWindowResized(int w, int h)
 }
 
 /**
- * Calls GLFWApplication::onWindowFocused() pasing the focused flag.
+ * Calls GLFWApplication::onWindowFocused() passing the focused flag.
  *
  * @param   window  the window that gained or lost input focus.
  * @param   focused GLFW_TRUE if the window was given input focus, or GLFW_FALSE

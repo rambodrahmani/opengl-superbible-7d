@@ -69,10 +69,10 @@ class source2 : public GLFWApplication
         }
 
         /**
-         * Clears the GL_COLOR buffer to the specified color.
+         * Clears the GL_COLOR buffer to the random color defined by color[].
          *
          * @param   currentTime the time, in seconds,  elapsed since GLFW was
-         *                      initialized
+         *                      initialized.
          */
         void render(double currentTime) override
         {
