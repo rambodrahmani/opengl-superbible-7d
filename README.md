@@ -25,3 +25,14 @@ In Part I, “Foundations,” we explain what OpenGL is and how it connects to t
 In Part II, “In Depth,” we introduce features of OpenGL that require some knowledge of multiple parts of the graphics pipeline and may refer to concepts mentioned in Part I. This allows us to cover more complex topics without glossing over details or telling you to skip forward in the repository to find out how something really works. By taking a second pass over the OpenGL system, we are able to delve into where data goes as it leaves each part of OpenGL, as you’ll already have been (at least briefly) introduced to its destination.
 
 Finally, in Part III, “In Practice,” we dive deeper into the graphics pipeline, cover some more advanced topics, and give a number of examples that use multiple features of OpenGL. We provide a number of worked examples that implement various rendering techniques, give a series of suggestions and advice on OpenGL best practices and performance considerations, and end up with a practical overview of OpenGL on several popular platforms, including mobile devices.
+
+## Setup the library
+
+Throughout the chapters of this repo a framework has been used to avoid repeating source code. In order to get everything up and running keep in mind that you will have to:
+
+ - Clone the [gl3w](https://github.com/skaslev/gl3w) library inside ./library/gl3w.
+ - Run gl3w_gen.py Python script to setup the [gl3w](https://github.com/skaslev/gl3w) library.
+ - Clone the [glfw](https://github.com/glfw/glfw) library inside ./library/glfw.
+ 
+ Once done, you should be able to compile and run all the source files in this repo.
+ 
