@@ -61,10 +61,10 @@ void GLFWApplication::run(Application * app)
                     // call render method passing the time elapsed since GLFW was initialized
                     render(glfwGetTime());
 
-                    // swapw the front and back buffers of the window
+                    // swap the front and back buffers of the window
                     glfwSwapBuffers(window);
 
-                    // process al pending events
+                    // process all pending events
                     glfwPollEvents();
 
                     // check for OpenGL errors

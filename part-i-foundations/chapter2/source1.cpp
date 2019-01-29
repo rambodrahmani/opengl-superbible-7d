@@ -102,7 +102,7 @@ MAIN(source1);
  * the first parameter (in this case GL_COLOR) to the value specified in its third
  * parameter. The second parameter, drawBuffer, is used when there are multiple
  * output buffers that could be cleared. Because we’re using only one here and
- * drawBuffer is a zero- based index, we’ll just set it to 0 in this example.
+ * drawBuffer is a zero-based index, we’ll just set it to 0 in this example.
  * Here, that color is stored in the array red, which contains four floating-point
  * values—one each for red, green, blue, and alpha, in that order.
  *
