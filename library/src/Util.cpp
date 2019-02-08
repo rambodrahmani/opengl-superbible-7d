@@ -1,8 +1,6 @@
 /**
  *
- *   File:   Util.h
- *
- *           This class provides utility methods.
+ *   File:   Util.cpp
  *
  *   Author: Rambod Rahmani <rambodrahmani@autistici.org>
  *           Created on 9/5/18.
@@ -15,14 +13,6 @@
  * OpenGLUtil namespace.
  */
 
- /**
-  * Reads the shader file located at the given file path and returns a string
-  * containing the shader file content.
-  *
-  * @param  filePath    the path to the shader file to be read.
-  *
-  * @return             the string containing the shader file content.
-  */
 string OpenGLUtil::readShader(const char * filePath)
 {
     string ret;
@@ -55,16 +45,6 @@ string OpenGLUtil::readShader(const char * filePath)
     return ret;
 }
 
-/**
- * Creates a shader object of the given type, attaches the given shader source
- * and compiles it. Before returning the created shader object, checks for
- * compilation errors.
- *
- * @param   shaderType      the type of the shader object to be created.
- * @param   shaderSource    the source code for the shader object to be created.
- *
- * @return                  the created shader object.
- */
 const GLuint OpenGLUtil::createShader(GLenum shaderType, const GLchar * const * shaderSource)
 {
     GLuint ret;
@@ -100,15 +80,6 @@ const GLuint OpenGLUtil::createShader(GLenum shaderType, const GLchar * const * 
     return ret;
 }
 
-/**
- * Creates a program object, attaches the given shader objects and links the program
- * object. Before returning the created program object, it checks for linking errors.
- *
- * @param   shaders the shader objects to be attached to the created program
- *                  object.
- *
- * @return          the created program object.
- */
 const GLuint OpenGLUtil::createProgram(vector<GLuint> shaders)
 {
     GLuint ret;
@@ -148,69 +119,31 @@ const GLuint OpenGLUtil::createProgram(vector<GLuint> shaders)
     return ret;
 }
 
-/**
- * Frees the memory and invalidates the name associated with the given shader
- * object.
- *
- * @param   shader  the shader object to be deleted.
- */
 void OpenGLUtil::deleteShader(GLuint shader)
 {
     glDeleteShader(shader);
 }
 
-/**
- * Creates vertex array objects.
- *
- * @param   n       number of vertex array objects to create.
- * @param   arrays  specifies an array in which names of the new vertex array
- *                  objects are stored.
- */
 void OpenGLUtil::createVertexArrays(GLsizei n, GLuint * arrays)
 {
     glCreateVertexArrays(n, arrays);
 }
 
-/**
- * Binds the given vertex array object.
- *
- * @param   array   specifies the name of the vertex array to bind.
- */
 void OpenGLUtil::bindVertexArray(GLuint array)
 {
     glBindVertexArray(array);
 }
 
-/**
- * Deletes n vertex array objects whose names are stored in the given array.
- *
- * @param   n       specifies the number of vertex array objects to be deleted.
- * @param   arrays  specifies the address of an array containing the n names of
- *                  the objects to be deleted.
- */
 void OpenGLUtil::deleteVertexArrays(GLsizei n, const GLuint * arrays)
 {
     glDeleteVertexArrays(n, arrays);
 }
 
-/**
- * Frees the memory and invalidates the name associated with the program object
- * specified by program.
- *
- * @param   program the program to be deleted.
- */
 void OpenGLUtil::deleteProgram(GLuint program)
 {
     glDeleteProgram(program);
 }
 
-/**
- * Clears the specified buffer of a framebuffer to the specified value(s).
- *
- * @param   buffer      the buffer to clear.
- * @param   drawbuffer  a particular draw buffer to clear.
- * @param   value       a pointer to the value or values to clear the buffer to.
- */
 void OpenGLUtil::clearBufferfv(GLenum buffer, GLint drawbuffer, const GLfloat * value)
 {
     glClearBufferfv(buffer, drawbuffer, value);

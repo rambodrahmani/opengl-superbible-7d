@@ -39,7 +39,8 @@ namespace OpenGLUtil
 
     /**
      * Creates, compiles and returns a shader object of the given type with the
-     * given source code.
+     * given source code. Before returning the created shader object, it checks
+     * for compilation errors.
      *
      * @param   shaderType      the type of the shader object to be created.
      * @param   shaderSource    the source code for the shader object to be created.
@@ -49,11 +50,12 @@ namespace OpenGLUtil
     const GLuint createShader(GLenum shaderType, const GLchar * const * shaderSource);
 
     /**
-     * Creates, links and returns a program object attaching the given shader
-     * objects.
+     * Creates a program object, attaches the given shader objects and links the
+     * program object. Before returning the created program object, it checks for
+     * linking errors.
      *
-     * @param   shaders the shader objects to be attached to the created program
-     *                  object.
+     * @param	shaders the shader objects to be attached to the created program
+     * 		object.
      *
      * @return          the created program object.
      */

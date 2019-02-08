@@ -1,6 +1,7 @@
 /**
  *
  *   File:   main.cpp
+ *           Developer test harness.
  *
  *   Author: Rambod Rahmani <rambodrahmani@autistici.org>
  *
