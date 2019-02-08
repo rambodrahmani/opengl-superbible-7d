@@ -98,7 +98,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "part-i-foundations/chapter2/CMakeFiles/chapter2-source4.dir/DependInfo.cmake"
   "part-i-foundations/chapter2/CMakeFiles/chapter2-source5.dir/DependInfo.cmake"
   "part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/DependInfo.cmake"
-  "part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/DependInfo.cmake"
   "part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/DependInfo.cmake"
   "part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/DependInfo.cmake"
   )

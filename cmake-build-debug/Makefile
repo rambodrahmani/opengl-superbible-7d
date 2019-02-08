@@ -339,19 +339,6 @@ chapter3-source2/fast:
 .PHONY : chapter3-source2/fast
 
 #=============================================================================
-# Target rules for targets named chapter3-source4
-
-# Build rule for target.
-chapter3-source4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 chapter3-source4
-.PHONY : chapter3-source4
-
-# fast build rule for target.
-chapter3-source4/fast:
-	$(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/build
-.PHONY : chapter3-source4/fast
-
-#=============================================================================
 # Target rules for targets named chapter3-source1
 
 # Build rule for target.
@@ -484,7 +471,6 @@ help:
 	@echo "... chapter2-source4"
 	@echo "... chapter2-source5"
 	@echo "... chapter3-source2"
-	@echo "... chapter3-source4"
 	@echo "... chapter3-source1"
 	@echo "... chapter3-source3"
 	@echo "... library/src/Application.o"
