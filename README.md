@@ -1,5 +1,4 @@
 # OpenGL Superbible - 7th Edition
-
 When OpenGL was young, the highest-end SGI systems like the Reality Engine 2 cost $80,000 and could render 200,000 textured triangles per second, or 3,333 triangles per frame at 60 Hz. The CPUs of that era were slower than today, to be sure, but at around 100 MHz, that’s still 500 CPU cycles for each triangle. It was pretty easy to be graphics limited back then, and the API reflected that—the only way to specify geometry was immediate mode! Well, there were also display lists for static geometry, which made being graphics-limited even easier.
 
 OpenGL is not young anymore, the highest-end GPUs that it can run on cost around $1000, and they don’t even list triangles per second in their basic product description anymore, but the number is north of 6 billion. Today these GPUs are in the middle of the single digit teraflops and several hundred gigabytes per second of bandwidth. CPUs have gotten faster, too: With 4 cores and around 3 GHz, they are shy of 200 gigaflops and have around 20 gigabytes per second of memory bandwidth. So where we had 500 CPU cycles for a triangle in the early days, we now have 0.5 cycles. Even if we could perfectly exploit all 4 cores, that would give us a paltry 2 CPU cycles for each triangle! All that is to say that the growth in hardware graphics performance has outstripped conventional CPU performance growth by several orders of magnitude, and the consequences are pretty obvious today. Not only is the CPU frequently the limiting factor in graphics performance, we have an API that was designed against a different set of assumptions.
@@ -17,7 +16,6 @@ One of our goals with this repository was to ensure that there were as few forwa
 It is not a goal of this repository to cover every last feature of OpenGL—that is, to mention every function in the specification or every value that can be passed to a command. Rather, we intend to provide a solid understanding of OpenGL, introduce the fundamentals, and explore some of its more advanced features. After reading this repository, readers should be comfortable looking up finer details in the OpenGL specification, experimenting with OpenGL on their own machines, and using extensions (bonus features that add capabilities to OpenGL not required by the main specification).
 
 ## The Architeture of the Repository
-
 This repository is subdivided into three parts.
 
 In Part I, “Foundations,” we explain what OpenGL is and how it connects to the graphics pipeline, and we give minimal working examples that are sufficient to demonstrate each section of it without requiring much, if any, knowledge of any other part of the whole system. We lay a foundation for the math behind three-dimensional computer graphics, and describe how OpenGL manages the large amounts of data that are required to provide a compelling experience to the users of such applications. We also describe the programming model for shaders, which form a core part of any OpenGL application.
@@ -27,12 +25,55 @@ In Part II, “In Depth,” we introduce features of OpenGL that require some kn
 Finally, in Part III, “In Practice,” we dive deeper into the graphics pipeline, cover some more advanced topics, and give a number of examples that use multiple features of OpenGL. We provide a number of worked examples that implement various rendering techniques, give a series of suggestions and advice on OpenGL best practices and performance considerations, and end up with a practical overview of OpenGL on several popular platforms, including mobile devices.
 
 ## Setup the library
-
 Throughout the chapters of this repo a framework has been used to avoid repeating source code. In order to get everything up and running keep in mind that you will have to:
 
  - Clone the [gl3w](https://github.com/skaslev/gl3w) library inside ./library/gl3w.
  - Run gl3w_gen.py Python script to setup the [gl3w](https://github.com/skaslev/gl3w) library.
  - Clone the [glfw](https://github.com/glfw/glfw) library inside ./library/glfw.
  
- Once done, you should be able to compile and run all the source files in this repo.
- 
+Once done, you should be able to compile and run all the source files in this repo.
+
+## Building
+To build all the source codes in this repo simply run
+```bash
+cmake CMakeLists.txt -Bcmake-build-debug/
+```
+in the root folder of this repo, and then move to the `cmake-build-debug` and run
+```bash
+make
+```
+
+e.g.:
+```bash
+[rambodrahmani@rr-laptop opengl-superbible-7d]$ cmake CMakeLists.txt -Bcmake-build-debug/
+
+-- Using X11 for window creation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug
+
+[rambodrahmani@rr-laptop cmake-build-debug]$ cd cmake-build-debug
+
+[rambodrahmani@rr-laptop cmake-build-debug]$ make
+[  6%] Built target library
+[  8%] Built target gl3w_gen
+[ 36%] Built target glfw
+[ 46%] Built target library-test
+[ 50%] Built target chapter1-source1
+[ 55%] Built target chapter2-source2
+[ 60%] Built target chapter2-source1
+[ 65%] Built target chapter2-source6
+[ 70%] Built target chapter2-source7
+[ 75%] Built target chapter2-source3
+[ 80%] Built target chapter2-source4
+[ 85%] Built target chapter2-source5
+[ 90%] Built target chapter3-source2
+[ 95%] Built target chapter3-source1
+[100%] Built target chapter3-source3
+```
+#### -- Could NOT find Vulkan (missing: VULKAN_INCLUDE_DIR)
+You might get this warning message when running cmake. To get rid of it install the followwing packages:
+ - `vulkan-intel` (depending on your graphic card you might have to change this one to `nvidia` or `vulkan-radeon` or `amdgpu-pro-vulkan` or `amdvlk-git`)
+ - `vulkan-icd-loader`
+ - `lib32-vulkan-icd-loader`
+ - `extra/vulkan-headers`

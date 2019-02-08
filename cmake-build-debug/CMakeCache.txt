@@ -321,7 +321,7 @@ PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
 RT_LIBRARY:FILEPATH=/usr/lib/librt.so
 
 //Path to a file.
-VULKAN_INCLUDE_DIR:PATH=VULKAN_INCLUDE_DIR-NOTFOUND
+VULKAN_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
 VULKAN_LIBRARY:FILEPATH=/lib/libvulkan.so
@@ -761,6 +761,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v1.6.0()]
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v3.7.2()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Details about finding Vulkan
+FIND_PACKAGE_MESSAGE_DETAILS_Vulkan:INTERNAL=[/lib/libvulkan.so][/usr/include][v()]
 //Details about finding X11
 FIND_PACKAGE_MESSAGE_DETAILS_X11:INTERNAL=[/usr/lib/libX11.so][/usr/include]
 //ADVANCED property for variable: MATH_LIBRARY
