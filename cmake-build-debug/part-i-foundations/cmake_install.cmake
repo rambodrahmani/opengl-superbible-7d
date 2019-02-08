@@ -1,4 +1,4 @@
-# Install script for directory: /home/rambodrahmani/DevOps/opengl-superbible-7ed/part-i-foundations
+# Install script for directory: /home/rambodrahmani/DevOps/opengl-superbible-7d/part-i-foundations
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter1/cmake_install.cmake")
-  include("/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter2/cmake_install.cmake")
-  include("/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter3/cmake_install.cmake")
+  include("/home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter1/cmake_install.cmake")
+  include("/home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter2/cmake_install.cmake")
+  include("/home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter3/cmake_install.cmake")
 
 endif()
 

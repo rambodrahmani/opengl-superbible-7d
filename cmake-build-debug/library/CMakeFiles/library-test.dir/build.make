@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion/bin/cmake/linux/bin/cmake -E remove -f
+RM = /usr/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rambodrahmani/DevOps/opengl-superbible-7ed
+CMAKE_SOURCE_DIR = /home/rambodrahmani/DevOps/opengl-superbible-7d
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug
+CMAKE_BINARY_DIR = /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include library/CMakeFiles/library-test.dir/depend.make
@@ -59,68 +59,68 @@ include library/CMakeFiles/library-test.dir/flags.make
 
 library/CMakeFiles/library-test.dir/main.cpp.o: library/CMakeFiles/library-test.dir/flags.make
 library/CMakeFiles/library-test.dir/main.cpp.o: ../library/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object library/CMakeFiles/library-test.dir/main.cpp.o"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/library-test.dir/main.cpp.o -c /home/rambodrahmani/DevOps/opengl-superbible-7ed/library/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object library/CMakeFiles/library-test.dir/main.cpp.o"
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/library-test.dir/main.cpp.o -c /home/rambodrahmani/DevOps/opengl-superbible-7d/library/main.cpp
 
 library/CMakeFiles/library-test.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/library-test.dir/main.cpp.i"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rambodrahmani/DevOps/opengl-superbible-7ed/library/main.cpp > CMakeFiles/library-test.dir/main.cpp.i
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rambodrahmani/DevOps/opengl-superbible-7d/library/main.cpp > CMakeFiles/library-test.dir/main.cpp.i
 
 library/CMakeFiles/library-test.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/library-test.dir/main.cpp.s"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rambodrahmani/DevOps/opengl-superbible-7ed/library/main.cpp -o CMakeFiles/library-test.dir/main.cpp.s
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rambodrahmani/DevOps/opengl-superbible-7d/library/main.cpp -o CMakeFiles/library-test.dir/main.cpp.s
 
 library/CMakeFiles/library-test.dir/src/Util.cpp.o: library/CMakeFiles/library-test.dir/flags.make
 library/CMakeFiles/library-test.dir/src/Util.cpp.o: ../library/src/Util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object library/CMakeFiles/library-test.dir/src/Util.cpp.o"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/library-test.dir/src/Util.cpp.o -c /home/rambodrahmani/DevOps/opengl-superbible-7ed/library/src/Util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object library/CMakeFiles/library-test.dir/src/Util.cpp.o"
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/library-test.dir/src/Util.cpp.o -c /home/rambodrahmani/DevOps/opengl-superbible-7d/library/src/Util.cpp
 
 library/CMakeFiles/library-test.dir/src/Util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/library-test.dir/src/Util.cpp.i"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rambodrahmani/DevOps/opengl-superbible-7ed/library/src/Util.cpp > CMakeFiles/library-test.dir/src/Util.cpp.i
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rambodrahmani/DevOps/opengl-superbible-7d/library/src/Util.cpp > CMakeFiles/library-test.dir/src/Util.cpp.i
 
 library/CMakeFiles/library-test.dir/src/Util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/library-test.dir/src/Util.cpp.s"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rambodrahmani/DevOps/opengl-superbible-7ed/library/src/Util.cpp -o CMakeFiles/library-test.dir/src/Util.cpp.s
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rambodrahmani/DevOps/opengl-superbible-7d/library/src/Util.cpp -o CMakeFiles/library-test.dir/src/Util.cpp.s
 
 library/CMakeFiles/library-test.dir/src/Application.cpp.o: library/CMakeFiles/library-test.dir/flags.make
 library/CMakeFiles/library-test.dir/src/Application.cpp.o: ../library/src/Application.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object library/CMakeFiles/library-test.dir/src/Application.cpp.o"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/library-test.dir/src/Application.cpp.o -c /home/rambodrahmani/DevOps/opengl-superbible-7ed/library/src/Application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object library/CMakeFiles/library-test.dir/src/Application.cpp.o"
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/library-test.dir/src/Application.cpp.o -c /home/rambodrahmani/DevOps/opengl-superbible-7d/library/src/Application.cpp
 
 library/CMakeFiles/library-test.dir/src/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/library-test.dir/src/Application.cpp.i"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rambodrahmani/DevOps/opengl-superbible-7ed/library/src/Application.cpp > CMakeFiles/library-test.dir/src/Application.cpp.i
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rambodrahmani/DevOps/opengl-superbible-7d/library/src/Application.cpp > CMakeFiles/library-test.dir/src/Application.cpp.i
 
 library/CMakeFiles/library-test.dir/src/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/library-test.dir/src/Application.cpp.s"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rambodrahmani/DevOps/opengl-superbible-7ed/library/src/Application.cpp -o CMakeFiles/library-test.dir/src/Application.cpp.s
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rambodrahmani/DevOps/opengl-superbible-7d/library/src/Application.cpp -o CMakeFiles/library-test.dir/src/Application.cpp.s
 
 library/CMakeFiles/library-test.dir/src/GLFWApplication.cpp.o: library/CMakeFiles/library-test.dir/flags.make
 library/CMakeFiles/library-test.dir/src/GLFWApplication.cpp.o: ../library/src/GLFWApplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object library/CMakeFiles/library-test.dir/src/GLFWApplication.cpp.o"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/library-test.dir/src/GLFWApplication.cpp.o -c /home/rambodrahmani/DevOps/opengl-superbible-7ed/library/src/GLFWApplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object library/CMakeFiles/library-test.dir/src/GLFWApplication.cpp.o"
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/library-test.dir/src/GLFWApplication.cpp.o -c /home/rambodrahmani/DevOps/opengl-superbible-7d/library/src/GLFWApplication.cpp
 
 library/CMakeFiles/library-test.dir/src/GLFWApplication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/library-test.dir/src/GLFWApplication.cpp.i"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rambodrahmani/DevOps/opengl-superbible-7ed/library/src/GLFWApplication.cpp > CMakeFiles/library-test.dir/src/GLFWApplication.cpp.i
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rambodrahmani/DevOps/opengl-superbible-7d/library/src/GLFWApplication.cpp > CMakeFiles/library-test.dir/src/GLFWApplication.cpp.i
 
 library/CMakeFiles/library-test.dir/src/GLFWApplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/library-test.dir/src/GLFWApplication.cpp.s"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rambodrahmani/DevOps/opengl-superbible-7ed/library/src/GLFWApplication.cpp -o CMakeFiles/library-test.dir/src/GLFWApplication.cpp.s
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rambodrahmani/DevOps/opengl-superbible-7d/library/src/GLFWApplication.cpp -o CMakeFiles/library-test.dir/src/GLFWApplication.cpp.s
 
 library/CMakeFiles/library-test.dir/gl3w/src/gl3w.c.o: library/CMakeFiles/library-test.dir/flags.make
 library/CMakeFiles/library-test.dir/gl3w/src/gl3w.c.o: library/gl3w/src/gl3w.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object library/CMakeFiles/library-test.dir/gl3w/src/gl3w.c.o"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/library-test.dir/gl3w/src/gl3w.c.o   -c /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w/src/gl3w.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object library/CMakeFiles/library-test.dir/gl3w/src/gl3w.c.o"
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/library-test.dir/gl3w/src/gl3w.c.o   -c /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library/gl3w/src/gl3w.c
 
 library/CMakeFiles/library-test.dir/gl3w/src/gl3w.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/library-test.dir/gl3w/src/gl3w.c.i"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w/src/gl3w.c > CMakeFiles/library-test.dir/gl3w/src/gl3w.c.i
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library/gl3w/src/gl3w.c > CMakeFiles/library-test.dir/gl3w/src/gl3w.c.i
 
 library/CMakeFiles/library-test.dir/gl3w/src/gl3w.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/library-test.dir/gl3w/src/gl3w.c.s"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w/src/gl3w.c -o CMakeFiles/library-test.dir/gl3w/src/gl3w.c.s
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library/gl3w/src/gl3w.c -o CMakeFiles/library-test.dir/gl3w/src/gl3w.c.s
 
 # Object files for target library-test
 library__test_OBJECTS = \
@@ -147,8 +147,8 @@ library/library-test: /usr/lib/libGLU.so
 library/library-test: /usr/lib/libGLX.so
 library/library-test: /usr/lib/libOpenGL.so
 library/library-test: library/CMakeFiles/library-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable library-test"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/library-test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable library-test"
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/library-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 library/CMakeFiles/library-test.dir/build: library/library-test
@@ -156,10 +156,10 @@ library/CMakeFiles/library-test.dir/build: library/library-test
 .PHONY : library/CMakeFiles/library-test.dir/build
 
 library/CMakeFiles/library-test.dir/clean:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/library-test.dir/cmake_clean.cmake
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/library-test.dir/cmake_clean.cmake
 .PHONY : library/CMakeFiles/library-test.dir/clean
 
 library/CMakeFiles/library-test.dir/depend:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rambodrahmani/DevOps/opengl-superbible-7ed /home/rambodrahmani/DevOps/opengl-superbible-7ed/library /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/CMakeFiles/library-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rambodrahmani/DevOps/opengl-superbible-7d /home/rambodrahmani/DevOps/opengl-superbible-7d/library /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library/CMakeFiles/library-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : library/CMakeFiles/library-test.dir/depend
 

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion/bin/cmake/linux/bin/cmake -E remove -f
+RM = /usr/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rambodrahmani/DevOps/opengl-superbible-7ed
+CMAKE_SOURCE_DIR = /home/rambodrahmani/DevOps/opengl-superbible-7d
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug
+CMAKE_BINARY_DIR = /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/depend.make
@@ -59,29 +59,29 @@ include part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/flags.make
 
 part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/source3.cpp.o: part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/flags.make
 part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/source3.cpp.o: ../part-i-foundations/chapter3/source3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/source3.cpp.o"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chapter3-source3.dir/source3.cpp.o -c /home/rambodrahmani/DevOps/opengl-superbible-7ed/part-i-foundations/chapter3/source3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/source3.cpp.o"
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chapter3-source3.dir/source3.cpp.o -c /home/rambodrahmani/DevOps/opengl-superbible-7d/part-i-foundations/chapter3/source3.cpp
 
 part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/source3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chapter3-source3.dir/source3.cpp.i"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rambodrahmani/DevOps/opengl-superbible-7ed/part-i-foundations/chapter3/source3.cpp > CMakeFiles/chapter3-source3.dir/source3.cpp.i
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rambodrahmani/DevOps/opengl-superbible-7d/part-i-foundations/chapter3/source3.cpp > CMakeFiles/chapter3-source3.dir/source3.cpp.i
 
 part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/source3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chapter3-source3.dir/source3.cpp.s"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rambodrahmani/DevOps/opengl-superbible-7ed/part-i-foundations/chapter3/source3.cpp -o CMakeFiles/chapter3-source3.dir/source3.cpp.s
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rambodrahmani/DevOps/opengl-superbible-7d/part-i-foundations/chapter3/source3.cpp -o CMakeFiles/chapter3-source3.dir/source3.cpp.s
 
 part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/__/__/library/gl3w/src/gl3w.c.o: part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/flags.make
 part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/__/__/library/gl3w/src/gl3w.c.o: library/gl3w/src/gl3w.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/__/__/library/gl3w/src/gl3w.c.o"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/chapter3-source3.dir/__/__/library/gl3w/src/gl3w.c.o   -c /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w/src/gl3w.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/__/__/library/gl3w/src/gl3w.c.o"
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/chapter3-source3.dir/__/__/library/gl3w/src/gl3w.c.o   -c /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library/gl3w/src/gl3w.c
 
 part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/__/__/library/gl3w/src/gl3w.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chapter3-source3.dir/__/__/library/gl3w/src/gl3w.c.i"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w/src/gl3w.c > CMakeFiles/chapter3-source3.dir/__/__/library/gl3w/src/gl3w.c.i
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library/gl3w/src/gl3w.c > CMakeFiles/chapter3-source3.dir/__/__/library/gl3w/src/gl3w.c.i
 
 part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/__/__/library/gl3w/src/gl3w.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chapter3-source3.dir/__/__/library/gl3w/src/gl3w.c.s"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w/src/gl3w.c -o CMakeFiles/chapter3-source3.dir/__/__/library/gl3w/src/gl3w.c.s
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library/gl3w/src/gl3w.c -o CMakeFiles/chapter3-source3.dir/__/__/library/gl3w/src/gl3w.c.s
 
 # Object files for target chapter3-source3
 chapter3__source3_OBJECTS = \
@@ -103,8 +103,8 @@ part-i-foundations/chapter3/chapter3-source3: /usr/lib/libGLU.so
 part-i-foundations/chapter3/chapter3-source3: /usr/lib/libGLX.so
 part-i-foundations/chapter3/chapter3-source3: /usr/lib/libOpenGL.so
 part-i-foundations/chapter3/chapter3-source3: part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable chapter3-source3"
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter3 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chapter3-source3.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable chapter3-source3"
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter3 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chapter3-source3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/build: part-i-foundations/chapter3/chapter3-source3
@@ -112,10 +112,10 @@ part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/build: part-i-founda
 .PHONY : part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/build
 
 part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/clean:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter3 && $(CMAKE_COMMAND) -P CMakeFiles/chapter3-source3.dir/cmake_clean.cmake
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter3 && $(CMAKE_COMMAND) -P CMakeFiles/chapter3-source3.dir/cmake_clean.cmake
 .PHONY : part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/clean
 
 part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/depend:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rambodrahmani/DevOps/opengl-superbible-7ed /home/rambodrahmani/DevOps/opengl-superbible-7ed/part-i-foundations/chapter3 /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter3 /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rambodrahmani/DevOps/opengl-superbible-7d /home/rambodrahmani/DevOps/opengl-superbible-7d/part-i-foundations/chapter3 /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter3 /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/depend
 

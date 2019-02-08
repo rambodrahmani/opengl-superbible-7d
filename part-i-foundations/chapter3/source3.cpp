@@ -1,7 +1,7 @@
 /**
  *
  *  File:   source3.cpp
- *  		Draw different-colored triangles using interface blocks between shaders.
+ *          Draw different-colored triangles using interface blocks between shaders.
  *
  *  Author: Rambod Rahmani <rambodrahmani@autistici.org>
  *          Created on 10/27/18.

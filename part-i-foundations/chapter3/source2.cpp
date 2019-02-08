@@ -1,7 +1,7 @@
 /**
  *
  *  File:   source2.cpp
- *  		Draw different-colored triangles.
+ *          Draw different-colored triangles.
  *
  *  Author: Rambod Rahmani <rambodrahmani@autistici.org>
  *          Created on 10/27/18.

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion/bin/cmake/linux/bin/cmake -E remove -f
+RM = /usr/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rambodrahmani/DevOps/opengl-superbible-7ed
+CMAKE_SOURCE_DIR = /home/rambodrahmani/DevOps/opengl-superbible-7d
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug
+CMAKE_BINARY_DIR = /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,25 +59,25 @@ CMAKE_BINARY_DIR = /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/opt/clion/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/opt/clion/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/opt/clion/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/opt/clion/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target list_install_components
@@ -92,8 +92,8 @@ list_install_components/fast: list_install_components
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -104,19 +104,19 @@ edit_cache/fast: edit_cache
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/opt/clion/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/opt/clion/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/CMakeFiles /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/part-i-foundations/chapter3/CMakeFiles/progress.marks
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter3/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/CMakeFiles 0
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/CMakeFiles /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter3/CMakeFiles/progress.marks
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter3/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter3/clean
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter3/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter3/preinstall
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter3/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter3/preinstall
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter3/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/rule:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/rule
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/rule
 .PHONY : part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,27 @@ chapter3-source2: part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/ru
 
 # fast build rule for target.
 chapter3-source2/fast:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/build
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/build
 .PHONY : chapter3-source2/fast
 
 # Convenience name for target.
+part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/rule:
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/rule
+.PHONY : part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/rule
+
+# Convenience name for target.
+chapter3-source4: part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/rule
+
+.PHONY : chapter3-source4
+
+# fast build rule for target.
+chapter3-source4/fast:
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/build
+.PHONY : chapter3-source4/fast
+
+# Convenience name for target.
 part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/rule:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/rule
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/rule
 .PHONY : part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/rule
 
 # Convenience name for target.
@@ -183,12 +198,12 @@ chapter3-source1: part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/ru
 
 # fast build rule for target.
 chapter3-source1/fast:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/build
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/build
 .PHONY : chapter3-source1/fast
 
 # Convenience name for target.
 part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/rule:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/rule
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/rule
 .PHONY : part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/rule
 
 # Convenience name for target.
@@ -198,7 +213,7 @@ chapter3-source3: part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/ru
 
 # fast build rule for target.
 chapter3-source3/fast:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/build
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/build
 .PHONY : chapter3-source3/fast
 
 __/__/library/gl3w/src/gl3w.o: __/__/library/gl3w/src/gl3w.c.o
@@ -207,9 +222,10 @@ __/__/library/gl3w/src/gl3w.o: __/__/library/gl3w/src/gl3w.c.o
 
 # target to build an object file
 __/__/library/gl3w/src/gl3w.c.o:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/__/__/library/gl3w/src/gl3w.c.o
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/__/__/library/gl3w/src/gl3w.c.o
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/__/__/library/gl3w/src/gl3w.c.o
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/__/__/library/gl3w/src/gl3w.c.o
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/__/__/library/gl3w/src/gl3w.c.o
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/__/__/library/gl3w/src/gl3w.c.o
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/__/__/library/gl3w/src/gl3w.c.o
 .PHONY : __/__/library/gl3w/src/gl3w.c.o
 
 __/__/library/gl3w/src/gl3w.i: __/__/library/gl3w/src/gl3w.c.i
@@ -218,9 +234,10 @@ __/__/library/gl3w/src/gl3w.i: __/__/library/gl3w/src/gl3w.c.i
 
 # target to preprocess a source file
 __/__/library/gl3w/src/gl3w.c.i:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/__/__/library/gl3w/src/gl3w.c.i
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/__/__/library/gl3w/src/gl3w.c.i
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/__/__/library/gl3w/src/gl3w.c.i
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/__/__/library/gl3w/src/gl3w.c.i
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/__/__/library/gl3w/src/gl3w.c.i
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/__/__/library/gl3w/src/gl3w.c.i
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/__/__/library/gl3w/src/gl3w.c.i
 .PHONY : __/__/library/gl3w/src/gl3w.c.i
 
 __/__/library/gl3w/src/gl3w.s: __/__/library/gl3w/src/gl3w.c.s
@@ -229,9 +246,10 @@ __/__/library/gl3w/src/gl3w.s: __/__/library/gl3w/src/gl3w.c.s
 
 # target to generate assembly for a file
 __/__/library/gl3w/src/gl3w.c.s:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/__/__/library/gl3w/src/gl3w.c.s
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/__/__/library/gl3w/src/gl3w.c.s
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/__/__/library/gl3w/src/gl3w.c.s
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/__/__/library/gl3w/src/gl3w.c.s
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/__/__/library/gl3w/src/gl3w.c.s
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/__/__/library/gl3w/src/gl3w.c.s
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/__/__/library/gl3w/src/gl3w.c.s
 .PHONY : __/__/library/gl3w/src/gl3w.c.s
 
 source1.o: source1.cpp.o
@@ -240,7 +258,7 @@ source1.o: source1.cpp.o
 
 # target to build an object file
 source1.cpp.o:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/source1.cpp.o
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/source1.cpp.o
 .PHONY : source1.cpp.o
 
 source1.i: source1.cpp.i
@@ -249,7 +267,7 @@ source1.i: source1.cpp.i
 
 # target to preprocess a source file
 source1.cpp.i:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/source1.cpp.i
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/source1.cpp.i
 .PHONY : source1.cpp.i
 
 source1.s: source1.cpp.s
@@ -258,7 +276,7 @@ source1.s: source1.cpp.s
 
 # target to generate assembly for a file
 source1.cpp.s:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/source1.cpp.s
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source1.dir/source1.cpp.s
 .PHONY : source1.cpp.s
 
 source2.o: source2.cpp.o
@@ -267,7 +285,7 @@ source2.o: source2.cpp.o
 
 # target to build an object file
 source2.cpp.o:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/source2.cpp.o
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/source2.cpp.o
 .PHONY : source2.cpp.o
 
 source2.i: source2.cpp.i
@@ -276,7 +294,7 @@ source2.i: source2.cpp.i
 
 # target to preprocess a source file
 source2.cpp.i:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/source2.cpp.i
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/source2.cpp.i
 .PHONY : source2.cpp.i
 
 source2.s: source2.cpp.s
@@ -285,7 +303,7 @@ source2.s: source2.cpp.s
 
 # target to generate assembly for a file
 source2.cpp.s:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/source2.cpp.s
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source2.dir/source2.cpp.s
 .PHONY : source2.cpp.s
 
 source3.o: source3.cpp.o
@@ -294,7 +312,7 @@ source3.o: source3.cpp.o
 
 # target to build an object file
 source3.cpp.o:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/source3.cpp.o
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/source3.cpp.o
 .PHONY : source3.cpp.o
 
 source3.i: source3.cpp.i
@@ -303,7 +321,7 @@ source3.i: source3.cpp.i
 
 # target to preprocess a source file
 source3.cpp.i:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/source3.cpp.i
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/source3.cpp.i
 .PHONY : source3.cpp.i
 
 source3.s: source3.cpp.s
@@ -312,8 +330,35 @@ source3.s: source3.cpp.s
 
 # target to generate assembly for a file
 source3.cpp.s:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/source3.cpp.s
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source3.dir/source3.cpp.s
 .PHONY : source3.cpp.s
+
+source4.o: source4.cpp.o
+
+.PHONY : source4.o
+
+# target to build an object file
+source4.cpp.o:
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/source4.cpp.o
+.PHONY : source4.cpp.o
+
+source4.i: source4.cpp.i
+
+.PHONY : source4.i
+
+# target to preprocess a source file
+source4.cpp.i:
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/source4.cpp.i
+.PHONY : source4.cpp.i
+
+source4.s: source4.cpp.s
+
+.PHONY : source4.s
+
+# target to generate assembly for a file
+source4.cpp.s:
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/build.make part-i-foundations/chapter3/CMakeFiles/chapter3-source4.dir/source4.cpp.s
+.PHONY : source4.cpp.s
 
 # Help Target
 help:
@@ -323,8 +368,9 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
-	@echo "... chapter3-source2"
 	@echo "... list_install_components"
+	@echo "... chapter3-source2"
+	@echo "... chapter3-source4"
 	@echo "... chapter3-source1"
 	@echo "... edit_cache"
 	@echo "... install"
@@ -342,6 +388,9 @@ help:
 	@echo "... source3.o"
 	@echo "... source3.i"
 	@echo "... source3.s"
+	@echo "... source4.o"
+	@echo "... source4.i"
+	@echo "... source4.s"
 .PHONY : help
 
 
@@ -353,6 +402,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

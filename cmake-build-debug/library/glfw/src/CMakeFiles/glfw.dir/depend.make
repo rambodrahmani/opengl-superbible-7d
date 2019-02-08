@@ -6,6 +6,7 @@ library/glfw/src/CMakeFiles/glfw.dir/context.c.o: ../library/glfw/src/cocoa_joys
 library/glfw/src/CMakeFiles/glfw.dir/context.c.o: ../library/glfw/src/cocoa_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/context.c.o: ../library/glfw/src/context.c
 library/glfw/src/CMakeFiles/glfw.dir/context.c.o: ../library/glfw/src/egl_context.h
+library/glfw/src/CMakeFiles/glfw.dir/context.c.o: ../library/glfw/src/glfw_config.h
 library/glfw/src/CMakeFiles/glfw.dir/context.c.o: ../library/glfw/src/glx_context.h
 library/glfw/src/CMakeFiles/glfw.dir/context.c.o: ../library/glfw/src/internal.h
 library/glfw/src/CMakeFiles/glfw.dir/context.c.o: ../library/glfw/src/linux_joystick.h
@@ -21,13 +22,13 @@ library/glfw/src/CMakeFiles/glfw.dir/context.c.o: ../library/glfw/src/win32_plat
 library/glfw/src/CMakeFiles/glfw.dir/context.c.o: ../library/glfw/src/wl_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/context.c.o: ../library/glfw/src/x11_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/context.c.o: ../library/glfw/src/xkb_unicode.h
-library/glfw/src/CMakeFiles/glfw.dir/context.c.o: library/glfw/src/glfw_config.h
 
 library/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: ../library/glfw/include/GLFW/glfw3.h
 library/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: ../library/glfw/src/cocoa_joystick.h
 library/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: ../library/glfw/src/cocoa_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: ../library/glfw/src/egl_context.c
 library/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: ../library/glfw/src/egl_context.h
+library/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: ../library/glfw/src/glfw_config.h
 library/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: ../library/glfw/src/glx_context.h
 library/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: ../library/glfw/src/internal.h
 library/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: ../library/glfw/src/linux_joystick.h
@@ -43,12 +44,12 @@ library/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: ../library/glfw/src/win32_
 library/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: ../library/glfw/src/wl_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: ../library/glfw/src/x11_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: ../library/glfw/src/xkb_unicode.h
-library/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: library/glfw/src/glfw_config.h
 
 library/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: ../library/glfw/include/GLFW/glfw3.h
 library/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: ../library/glfw/src/cocoa_joystick.h
 library/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: ../library/glfw/src/cocoa_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: ../library/glfw/src/egl_context.h
+library/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: ../library/glfw/src/glfw_config.h
 library/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: ../library/glfw/src/glx_context.c
 library/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: ../library/glfw/src/glx_context.h
 library/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: ../library/glfw/src/internal.h
@@ -65,12 +66,12 @@ library/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: ../library/glfw/src/win32_
 library/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: ../library/glfw/src/wl_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: ../library/glfw/src/x11_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: ../library/glfw/src/xkb_unicode.h
-library/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: library/glfw/src/glfw_config.h
 
 library/glfw/src/CMakeFiles/glfw.dir/init.c.o: ../library/glfw/include/GLFW/glfw3.h
 library/glfw/src/CMakeFiles/glfw.dir/init.c.o: ../library/glfw/src/cocoa_joystick.h
 library/glfw/src/CMakeFiles/glfw.dir/init.c.o: ../library/glfw/src/cocoa_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/init.c.o: ../library/glfw/src/egl_context.h
+library/glfw/src/CMakeFiles/glfw.dir/init.c.o: ../library/glfw/src/glfw_config.h
 library/glfw/src/CMakeFiles/glfw.dir/init.c.o: ../library/glfw/src/glx_context.h
 library/glfw/src/CMakeFiles/glfw.dir/init.c.o: ../library/glfw/src/init.c
 library/glfw/src/CMakeFiles/glfw.dir/init.c.o: ../library/glfw/src/internal.h
@@ -88,12 +89,12 @@ library/glfw/src/CMakeFiles/glfw.dir/init.c.o: ../library/glfw/src/win32_platfor
 library/glfw/src/CMakeFiles/glfw.dir/init.c.o: ../library/glfw/src/wl_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/init.c.o: ../library/glfw/src/x11_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/init.c.o: ../library/glfw/src/xkb_unicode.h
-library/glfw/src/CMakeFiles/glfw.dir/init.c.o: library/glfw/src/glfw_config.h
 
 library/glfw/src/CMakeFiles/glfw.dir/input.c.o: ../library/glfw/include/GLFW/glfw3.h
 library/glfw/src/CMakeFiles/glfw.dir/input.c.o: ../library/glfw/src/cocoa_joystick.h
 library/glfw/src/CMakeFiles/glfw.dir/input.c.o: ../library/glfw/src/cocoa_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/input.c.o: ../library/glfw/src/egl_context.h
+library/glfw/src/CMakeFiles/glfw.dir/input.c.o: ../library/glfw/src/glfw_config.h
 library/glfw/src/CMakeFiles/glfw.dir/input.c.o: ../library/glfw/src/glx_context.h
 library/glfw/src/CMakeFiles/glfw.dir/input.c.o: ../library/glfw/src/input.c
 library/glfw/src/CMakeFiles/glfw.dir/input.c.o: ../library/glfw/src/internal.h
@@ -110,12 +111,12 @@ library/glfw/src/CMakeFiles/glfw.dir/input.c.o: ../library/glfw/src/win32_platfo
 library/glfw/src/CMakeFiles/glfw.dir/input.c.o: ../library/glfw/src/wl_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/input.c.o: ../library/glfw/src/x11_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/input.c.o: ../library/glfw/src/xkb_unicode.h
-library/glfw/src/CMakeFiles/glfw.dir/input.c.o: library/glfw/src/glfw_config.h
 
 library/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: ../library/glfw/include/GLFW/glfw3.h
 library/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: ../library/glfw/src/cocoa_joystick.h
 library/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: ../library/glfw/src/cocoa_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: ../library/glfw/src/egl_context.h
+library/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: ../library/glfw/src/glfw_config.h
 library/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: ../library/glfw/src/glx_context.h
 library/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: ../library/glfw/src/internal.h
 library/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: ../library/glfw/src/linux_joystick.c
@@ -132,12 +133,12 @@ library/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: ../library/glfw/src/win
 library/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: ../library/glfw/src/wl_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: ../library/glfw/src/x11_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: ../library/glfw/src/xkb_unicode.h
-library/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: library/glfw/src/glfw_config.h
 
 library/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: ../library/glfw/include/GLFW/glfw3.h
 library/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: ../library/glfw/src/cocoa_joystick.h
 library/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: ../library/glfw/src/cocoa_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: ../library/glfw/src/egl_context.h
+library/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: ../library/glfw/src/glfw_config.h
 library/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: ../library/glfw/src/glx_context.h
 library/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: ../library/glfw/src/internal.h
 library/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: ../library/glfw/src/linux_joystick.h
@@ -154,12 +155,12 @@ library/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: ../library/glfw/src/win32_plat
 library/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: ../library/glfw/src/wl_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: ../library/glfw/src/x11_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: ../library/glfw/src/xkb_unicode.h
-library/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: library/glfw/src/glfw_config.h
 
 library/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: ../library/glfw/include/GLFW/glfw3.h
 library/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: ../library/glfw/src/cocoa_joystick.h
 library/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: ../library/glfw/src/cocoa_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: ../library/glfw/src/egl_context.h
+library/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: ../library/glfw/src/glfw_config.h
 library/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: ../library/glfw/src/glx_context.h
 library/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: ../library/glfw/src/internal.h
 library/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: ../library/glfw/src/linux_joystick.h
@@ -176,12 +177,12 @@ library/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: ../library/glfw/src/win
 library/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: ../library/glfw/src/wl_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: ../library/glfw/src/x11_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: ../library/glfw/src/xkb_unicode.h
-library/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: library/glfw/src/glfw_config.h
 
 library/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: ../library/glfw/include/GLFW/glfw3.h
 library/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: ../library/glfw/src/cocoa_joystick.h
 library/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: ../library/glfw/src/cocoa_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: ../library/glfw/src/egl_context.h
+library/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: ../library/glfw/src/glfw_config.h
 library/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: ../library/glfw/src/glx_context.h
 library/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: ../library/glfw/src/internal.h
 library/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: ../library/glfw/src/linux_joystick.h
@@ -198,12 +199,12 @@ library/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: ../library/glfw/src/win32
 library/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: ../library/glfw/src/wl_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: ../library/glfw/src/x11_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: ../library/glfw/src/xkb_unicode.h
-library/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: library/glfw/src/glfw_config.h
 
 library/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: ../library/glfw/include/GLFW/glfw3.h
 library/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: ../library/glfw/src/cocoa_joystick.h
 library/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: ../library/glfw/src/cocoa_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: ../library/glfw/src/egl_context.h
+library/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: ../library/glfw/src/glfw_config.h
 library/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: ../library/glfw/src/glx_context.h
 library/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: ../library/glfw/src/internal.h
 library/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: ../library/glfw/src/linux_joystick.h
@@ -220,12 +221,12 @@ library/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: ../library/glfw/src/win32_p
 library/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: ../library/glfw/src/wl_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: ../library/glfw/src/x11_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: ../library/glfw/src/xkb_unicode.h
-library/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: library/glfw/src/glfw_config.h
 
 library/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: ../library/glfw/include/GLFW/glfw3.h
 library/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: ../library/glfw/src/cocoa_joystick.h
 library/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: ../library/glfw/src/cocoa_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: ../library/glfw/src/egl_context.h
+library/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: ../library/glfw/src/glfw_config.h
 library/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: ../library/glfw/src/glx_context.h
 library/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: ../library/glfw/src/internal.h
 library/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: ../library/glfw/src/linux_joystick.h
@@ -242,12 +243,12 @@ library/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: ../library/glfw/src/win32_platf
 library/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: ../library/glfw/src/wl_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: ../library/glfw/src/x11_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: ../library/glfw/src/xkb_unicode.h
-library/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: library/glfw/src/glfw_config.h
 
 library/glfw/src/CMakeFiles/glfw.dir/window.c.o: ../library/glfw/include/GLFW/glfw3.h
 library/glfw/src/CMakeFiles/glfw.dir/window.c.o: ../library/glfw/src/cocoa_joystick.h
 library/glfw/src/CMakeFiles/glfw.dir/window.c.o: ../library/glfw/src/cocoa_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/window.c.o: ../library/glfw/src/egl_context.h
+library/glfw/src/CMakeFiles/glfw.dir/window.c.o: ../library/glfw/src/glfw_config.h
 library/glfw/src/CMakeFiles/glfw.dir/window.c.o: ../library/glfw/src/glx_context.h
 library/glfw/src/CMakeFiles/glfw.dir/window.c.o: ../library/glfw/src/internal.h
 library/glfw/src/CMakeFiles/glfw.dir/window.c.o: ../library/glfw/src/linux_joystick.h
@@ -264,12 +265,12 @@ library/glfw/src/CMakeFiles/glfw.dir/window.c.o: ../library/glfw/src/window.c
 library/glfw/src/CMakeFiles/glfw.dir/window.c.o: ../library/glfw/src/wl_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/window.c.o: ../library/glfw/src/x11_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/window.c.o: ../library/glfw/src/xkb_unicode.h
-library/glfw/src/CMakeFiles/glfw.dir/window.c.o: library/glfw/src/glfw_config.h
 
 library/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: ../library/glfw/include/GLFW/glfw3.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: ../library/glfw/src/cocoa_joystick.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: ../library/glfw/src/cocoa_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: ../library/glfw/src/egl_context.h
+library/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: ../library/glfw/src/glfw_config.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: ../library/glfw/src/glx_context.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: ../library/glfw/src/internal.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: ../library/glfw/src/linux_joystick.h
@@ -286,12 +287,12 @@ library/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: ../library/glfw/src/wl_platfo
 library/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: ../library/glfw/src/x11_init.c
 library/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: ../library/glfw/src/x11_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: ../library/glfw/src/xkb_unicode.h
-library/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: library/glfw/src/glfw_config.h
 
 library/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: ../library/glfw/include/GLFW/glfw3.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: ../library/glfw/src/cocoa_joystick.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: ../library/glfw/src/cocoa_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: ../library/glfw/src/egl_context.h
+library/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: ../library/glfw/src/glfw_config.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: ../library/glfw/src/glx_context.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: ../library/glfw/src/internal.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: ../library/glfw/src/linux_joystick.h
@@ -308,12 +309,12 @@ library/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: ../library/glfw/src/wl_pla
 library/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: ../library/glfw/src/x11_monitor.c
 library/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: ../library/glfw/src/x11_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: ../library/glfw/src/xkb_unicode.h
-library/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: library/glfw/src/glfw_config.h
 
 library/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: ../library/glfw/include/GLFW/glfw3.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: ../library/glfw/src/cocoa_joystick.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: ../library/glfw/src/cocoa_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: ../library/glfw/src/egl_context.h
+library/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: ../library/glfw/src/glfw_config.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: ../library/glfw/src/glx_context.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: ../library/glfw/src/internal.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: ../library/glfw/src/linux_joystick.h
@@ -330,12 +331,12 @@ library/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: ../library/glfw/src/wl_plat
 library/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: ../library/glfw/src/x11_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: ../library/glfw/src/x11_window.c
 library/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: ../library/glfw/src/xkb_unicode.h
-library/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: library/glfw/src/glfw_config.h
 
 library/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: ../library/glfw/include/GLFW/glfw3.h
 library/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: ../library/glfw/src/cocoa_joystick.h
 library/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: ../library/glfw/src/cocoa_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: ../library/glfw/src/egl_context.h
+library/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: ../library/glfw/src/glfw_config.h
 library/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: ../library/glfw/src/glx_context.h
 library/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: ../library/glfw/src/internal.h
 library/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: ../library/glfw/src/linux_joystick.h
@@ -352,5 +353,4 @@ library/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: ../library/glfw/src/wl_pla
 library/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: ../library/glfw/src/x11_platform.h
 library/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: ../library/glfw/src/xkb_unicode.c
 library/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: ../library/glfw/src/xkb_unicode.h
-library/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: library/glfw/src/glfw_config.h
 

@@ -3,15 +3,15 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_FLAGS = -g  
+C_FLAGS =  
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/glfw/include -I/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w/include 
+C_INCLUDES = -I/home/rambodrahmani/DevOps/opengl-superbible-7d/library/glfw/include -I/home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library/gl3w/include 
 
-CXX_FLAGS = -g   -std=gnu++14
+CXX_FLAGS =   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/rambodrahmani/DevOps/opengl-superbible-7ed/library/glfw/include -I/home/rambodrahmani/DevOps/opengl-superbible-7ed/cmake-build-debug/library/gl3w/include 
+CXX_INCLUDES = -I/home/rambodrahmani/DevOps/opengl-superbible-7d/library/glfw/include -I/home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/library/gl3w/include 
 

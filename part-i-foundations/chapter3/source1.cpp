@@ -1,8 +1,8 @@
 /**
  *
  *  File:   source1.cpp
- *			When we run the program with the rendering function implemented, the
- *			triangle will move in a smooth oval shape around the window.
+ *          When we run the program with the rendering function implemented, the
+ *          triangle will move in a smooth oval shape around the window.
  *
  *  Author: Rambod Rahmani <rambodrahmani@autistici.org>
  *          Created on 10/27/18.

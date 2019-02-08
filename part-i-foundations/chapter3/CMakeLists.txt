@@ -48,3 +48,15 @@ add_executable(chapter3-source3 source3.cpp)
 ##
 target_include_directories(chapter3-source3 PRIVATE ${OPENGL_INCLUDE_DIR} ${LIBRARY_INCLUDE_DIR})
 target_link_libraries(chapter3-source3 PRIVATE ${OPENGL_gl_LIBRARY} library glfw gl3w)
+
+##
+# Adds source4.cpp executable target.
+##
+add_executable(chapter3-source4 source4.cpp)
+
+##
+# Adds include directories to be used when compiling and libraries to be used when
+# linking target source3-source4.
+##
+target_include_directories(chapter3-source4 PRIVATE ${OPENGL_INCLUDE_DIR} ${LIBRARY_INCLUDE_DIR})
+target_link_libraries(chapter3-source4 PRIVATE ${OPENGL_gl_LIBRARY} library glfw gl3w)
