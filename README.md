@@ -1,7 +1,26 @@
 # OpenGL Superbible - 7th Edition
-When OpenGL was young, the highest-end SGI systems like the Reality Engine 2 cost $80,000 and could render 200,000 textured triangles per second, or 3,333 triangles per frame at 60 Hz. The CPUs of that era were slower than today, to be sure, but at around 100 MHz, that’s still 500 CPU cycles for each triangle. It was pretty easy to be graphics limited back then, and the API reflected that—the only way to specify geometry was immediate mode! Well, there were also display lists for static geometry, which made being graphics-limited even easier.
+When OpenGL was young, the highest-end SGI systems like the Reality Engine 2
+cost $80,000 and could render 200,000 textured triangles per second, or 3,333
+triangles per frame at 60 Hz. The CPUs of that era were slower than today, to
+be sure, but at around 100 MHz, that’s still 500 CPU cycles for each triangle.
+It was pretty easy to be graphics limited back then, and the API reflected
+that the only way to specify geometry was immediate mode! Well, there were also
+display lists for static geometry, which made being graphics-limited even easier.
 
-OpenGL is not young anymore, the highest-end GPUs that it can run on cost around $1000, and they don’t even list triangles per second in their basic product description anymore, but the number is north of 6 billion. Today these GPUs are in the middle of the single digit teraflops and several hundred gigabytes per second of bandwidth. CPUs have gotten faster, too: With 4 cores and around 3 GHz, they are shy of 200 gigaflops and have around 20 gigabytes per second of memory bandwidth. So where we had 500 CPU cycles for a triangle in the early days, we now have 0.5 cycles. Even if we could perfectly exploit all 4 cores, that would give us a paltry 2 CPU cycles for each triangle! All that is to say that the growth in hardware graphics performance has outstripped conventional CPU performance growth by several orders of magnitude, and the consequences are pretty obvious today. Not only is the CPU frequently the limiting factor in graphics performance, we have an API that was designed against a different set of assumptions.
+OpenGL is not young anymore, the highest-end GPUs that it can run on cost around
+$1000, and they don’t even list triangles per second in their basic product
+description anymore, but the number is north of 6 billion. Today these GPUs are
+in the middle of the single digit teraflops and several hundred gigabytes per
+second of bandwidth. CPUs have gotten faster, too: With 4 cores and around 3 GHz,
+they are shy of 200 gigaflops and have around 20 gigabytes per second of memory
+bandwidth. So where we had 500 CPU cycles for a triangle in the early days, we
+now have 0.5 cycles. Even if we could perfectly exploit all 4 cores, that would
+give us a paltry 2 CPU cycles for each triangle! All that is to say that the
+growth in hardware graphics performance has outstripped conventional CPU
+performance growth by several orders of magnitude, and the consequences are
+pretty obvious today. Not only is the CPU frequently the limiting factor in
+graphics performance, we have an API that was designed against a different set
+of assumptions.
 
 The good news with OpenGL is that it has evolved too. First it added vertex arrays so that a single draw command with fairly low CPU overhead gets amplified into a lot of GPU work. This helped for a while, but it wasn’t enough. We added instancing to further increase the amount of work, but this was a somewhat limited form of work amplification, as we don’t always want many instances of the same object in an organic, believable rendering.
 
