@@ -56,6 +56,17 @@ CMAKE_BINARY_DIR = /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-d
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -67,17 +78,6 @@ install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target list_install_components
 list_install_components:
@@ -157,19 +157,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-part-i-foundations/chapter1/CMakeFiles/chapter1.dir/rule:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter1/CMakeFiles/chapter1.dir/rule
-.PHONY : part-i-foundations/chapter1/CMakeFiles/chapter1.dir/rule
+part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/rule:
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/rule
+.PHONY : part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/rule
 
 # Convenience name for target.
-chapter1: part-i-foundations/chapter1/CMakeFiles/chapter1.dir/rule
+chapter1-source1: part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/rule
 
-.PHONY : chapter1
+.PHONY : chapter1-source1
 
 # fast build rule for target.
-chapter1/fast:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build
-.PHONY : chapter1/fast
+chapter1-source1/fast:
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/build
+.PHONY : chapter1-source1/fast
 
 source1.o: source1.cpp.o
 
@@ -177,7 +177,7 @@ source1.o: source1.cpp.o
 
 # target to build an object file
 source1.cpp.o:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1.dir/source1.cpp.o
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/source1.cpp.o
 .PHONY : source1.cpp.o
 
 source1.i: source1.cpp.i
@@ -186,7 +186,7 @@ source1.i: source1.cpp.i
 
 # target to preprocess a source file
 source1.cpp.i:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1.dir/source1.cpp.i
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/source1.cpp.i
 .PHONY : source1.cpp.i
 
 source1.s: source1.cpp.s
@@ -195,7 +195,7 @@ source1.s: source1.cpp.s
 
 # target to generate assembly for a file
 source1.cpp.s:
-	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1.dir/source1.cpp.s
+	cd /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug && $(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/source1.cpp.s
 .PHONY : source1.cpp.s
 
 # Help Target
@@ -204,9 +204,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
 	@echo "... edit_cache"
-	@echo "... chapter1"
+	@echo "... install/strip"
+	@echo "... chapter1-source1"
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... rebuild_cache"

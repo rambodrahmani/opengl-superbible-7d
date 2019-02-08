@@ -39,9 +39,9 @@
 /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/CMakeFiles/list_install_components.dir
 /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/CMakeFiles/edit_cache.dir
 /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/CMakeFiles/rebuild_cache.dir
-/home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter1/CMakeFiles/install/strip.dir
 /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter1/CMakeFiles/edit_cache.dir
-/home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter1/CMakeFiles/chapter1.dir
+/home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter1/CMakeFiles/install/strip.dir
+/home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir
 /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter1/CMakeFiles/list_install_components.dir
 /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter1/CMakeFiles/install/local.dir
 /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/part-i-foundations/chapter1/CMakeFiles/rebuild_cache.dir

@@ -16,4 +16,4 @@ set(CMAKE_CXX_STANDARD 14)
 ##
 # Adds main.cpp executable target.
 ##
-add_executable(chapter1 source1.cpp)
+add_executable(chapter1-source1 source1.cpp)

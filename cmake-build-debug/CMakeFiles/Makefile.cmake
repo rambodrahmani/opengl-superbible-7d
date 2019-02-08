@@ -89,7 +89,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "library/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "library/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "library/gl3w/CMakeFiles/gl3w_gen.dir/DependInfo.cmake"
-  "part-i-foundations/chapter1/CMakeFiles/chapter1.dir/DependInfo.cmake"
+  "part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/DependInfo.cmake"
   "part-i-foundations/chapter2/CMakeFiles/chapter2-source2.dir/DependInfo.cmake"
   "part-i-foundations/chapter2/CMakeFiles/chapter2-source1.dir/DependInfo.cmake"
   "part-i-foundations/chapter2/CMakeFiles/chapter2-source6.dir/DependInfo.cmake"

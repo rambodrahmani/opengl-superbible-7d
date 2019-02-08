@@ -346,12 +346,12 @@ part-i-foundations/preinstall: part-i-foundations/chapter3/preinstall
 # Directory level rules for directory part-i-foundations/chapter1
 
 # Convenience name for "all" pass in the directory.
-part-i-foundations/chapter1/all: part-i-foundations/chapter1/CMakeFiles/chapter1.dir/all
+part-i-foundations/chapter1/all: part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/all
 
 .PHONY : part-i-foundations/chapter1/all
 
 # Convenience name for "clean" pass in the directory.
-part-i-foundations/chapter1/clean: part-i-foundations/chapter1/CMakeFiles/chapter1.dir/clean
+part-i-foundations/chapter1/clean: part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/clean
 
 .PHONY : part-i-foundations/chapter1/clean
 
@@ -361,39 +361,39 @@ part-i-foundations/chapter1/preinstall:
 .PHONY : part-i-foundations/chapter1/preinstall
 
 #=============================================================================
-# Target rules for target part-i-foundations/chapter1/CMakeFiles/chapter1.dir
+# Target rules for target part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir
 
 # All Build rule for target.
-part-i-foundations/chapter1/CMakeFiles/chapter1.dir/all:
-	$(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1.dir/depend
-	$(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target chapter1"
-.PHONY : part-i-foundations/chapter1/CMakeFiles/chapter1.dir/all
+part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/all:
+	$(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/depend
+	$(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target chapter1-source1"
+.PHONY : part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/all
 
 # Include target in all.
-all: part-i-foundations/chapter1/CMakeFiles/chapter1.dir/all
+all: part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-part-i-foundations/chapter1/CMakeFiles/chapter1.dir/rule: cmake_check_build_system
+part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter1/CMakeFiles/chapter1.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rambodrahmani/DevOps/opengl-superbible-7d/cmake-build-debug/CMakeFiles 0
-.PHONY : part-i-foundations/chapter1/CMakeFiles/chapter1.dir/rule
+.PHONY : part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/rule
 
 # Convenience name for target.
-chapter1: part-i-foundations/chapter1/CMakeFiles/chapter1.dir/rule
+chapter1-source1: part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/rule
 
-.PHONY : chapter1
-
-# clean rule for target.
-part-i-foundations/chapter1/CMakeFiles/chapter1.dir/clean:
-	$(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1.dir/clean
-.PHONY : part-i-foundations/chapter1/CMakeFiles/chapter1.dir/clean
+.PHONY : chapter1-source1
 
 # clean rule for target.
-clean: part-i-foundations/chapter1/CMakeFiles/chapter1.dir/clean
+part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/clean:
+	$(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/clean
+.PHONY : part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/clean
+
+# clean rule for target.
+clean: part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/clean
 
 .PHONY : clean
 

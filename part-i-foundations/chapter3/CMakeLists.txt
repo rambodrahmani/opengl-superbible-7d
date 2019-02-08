@@ -20,7 +20,7 @@ add_executable(chapter3-source1 source1.cpp)
 
 ##
 # Adds include directories to be used when compiling and libraries to be used when
-# linking target chapter2-source1.
+# linking target chapter3-source1.
 ##
 target_include_directories(chapter3-source1 PRIVATE ${OPENGL_INCLUDE_DIR} ${LIBRARY_INCLUDE_DIR})
 target_link_libraries(chapter3-source1 PRIVATE ${OPENGL_gl_LIBRARY} library glfw gl3w)
@@ -32,7 +32,7 @@ add_executable(chapter3-source2 source2.cpp)
 
 ##
 # Adds include directories to be used when compiling and libraries to be used when
-# linking target source2-source1.
+# linking target chapter3-source2.
 ##
 target_include_directories(chapter3-source2 PRIVATE ${OPENGL_INCLUDE_DIR} ${LIBRARY_INCLUDE_DIR})
 target_link_libraries(chapter3-source2 PRIVATE ${OPENGL_gl_LIBRARY} library glfw gl3w)
@@ -44,7 +44,7 @@ add_executable(chapter3-source3 source3.cpp)
 
 ##
 # Adds include directories to be used when compiling and libraries to be used when
-# linking target source3-source1.
+# linking target chapter3-source3.
 ##
 target_include_directories(chapter3-source3 PRIVATE ${OPENGL_INCLUDE_DIR} ${LIBRARY_INCLUDE_DIR})
 target_link_libraries(chapter3-source3 PRIVATE ${OPENGL_gl_LIBRARY} library glfw gl3w)
@@ -56,7 +56,7 @@ add_executable(chapter3-source4 source4.cpp)
 
 ##
 # Adds include directories to be used when compiling and libraries to be used when
-# linking target source3-source4.
+# linking target chapter3-source4.
 ##
 target_include_directories(chapter3-source4 PRIVATE ${OPENGL_INCLUDE_DIR} ${LIBRARY_INCLUDE_DIR})
 target_link_libraries(chapter3-source4 PRIVATE ${OPENGL_gl_LIBRARY} library glfw gl3w)

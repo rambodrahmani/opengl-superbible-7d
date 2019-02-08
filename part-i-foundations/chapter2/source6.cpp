@@ -59,11 +59,11 @@ class source6 : public GLFWApplication
             GLuint program;
 
             // load the source code for the vertex shader
-            string vertex_shader_str = OpenGLUtil::readShader("../../../../opengl-superbible-7ed/part-i-foundations/chapter2/shaders/vertex.glsl");
+            string vertex_shader_str = OpenGLUtil::readShader("part-i-foundations/chapter2/shaders/vertex.glsl");
             static const char * vertex_shader_src = vertex_shader_str.c_str();
 
             // load the source code for the fragment shader
-            string fragment_shader_str = OpenGLUtil::readShader("../../../../opengl-superbible-7ed/part-i-foundations/chapter2/shaders/fragment.glsl");
+            string fragment_shader_str = OpenGLUtil::readShader("part-i-foundations/chapter2/shaders/fragment.glsl");
             static const char * fragment_shader_src = fragment_shader_str.c_str();
 
             // create and compile vertex shader

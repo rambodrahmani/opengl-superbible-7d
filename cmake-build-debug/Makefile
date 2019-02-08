@@ -222,17 +222,17 @@ gl3w_gen/fast:
 .PHONY : gl3w_gen/fast
 
 #=============================================================================
-# Target rules for targets named chapter1
+# Target rules for targets named chapter1-source1
 
 # Build rule for target.
-chapter1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 chapter1
-.PHONY : chapter1
+chapter1-source1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 chapter1-source1
+.PHONY : chapter1-source1
 
 # fast build rule for target.
-chapter1/fast:
-	$(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1.dir/build
-.PHONY : chapter1/fast
+chapter1-source1/fast:
+	$(MAKE) -f part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/build.make part-i-foundations/chapter1/CMakeFiles/chapter1-source1.dir/build
+.PHONY : chapter1-source1/fast
 
 #=============================================================================
 # Target rules for targets named chapter2-source2
@@ -475,7 +475,7 @@ help:
 	@echo "... uninstall"
 	@echo "... glfw"
 	@echo "... gl3w_gen"
-	@echo "... chapter1"
+	@echo "... chapter1-source1"
 	@echo "... chapter2-source2"
 	@echo "... chapter2-source1"
 	@echo "... chapter2-source6"
